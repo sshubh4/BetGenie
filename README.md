@@ -1,0 +1,2 @@
+# BetGenie
+Baseball Sportbetting AI
