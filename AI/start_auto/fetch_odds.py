@@ -47,6 +47,29 @@ OUTPUT = "mlb_odds.csv"
 API_KEY = "c091e2b1fa5b1ec04094ed7cc74bcad4"
 
 TZ_ET = ZoneInfo("America/New_York")
+#----helpers
+def get_last_date_from_csv(filepath, colname):
+    try:
+        df = pd.read_csv(filepath)
+        if colname not in df.columns or df.empty:
+            return None
+        df[colname] = pd.to_datetime(df[colname], errors='coerce')
+        return df[colname].dropna().max().date()
+    except Exception as e:
+        print(f"Error reading {filepath}: {e}")
+        return None
+
+def filter_dates_after(last_date, filepath, colname):
+    try:
+        df = pd.read_csv(filepath)
+        if colname not in df.columns:
+            return []
+        df[colname] = pd.to_datetime(df[colname], errors='coerce')
+        dates = df[df[colname].dt.date > last_date][colname].dropna().dt.date.unique()
+        return sorted(dates)
+    except Exception as e:
+        print(f"Error filtering dates from {filepath}: {e}")
+        return []
 
 # ── HTTP session ───────────────────────────────────────────────────────────────
 
@@ -235,15 +258,38 @@ def build_date_list() -> List[dt.date]:
     return list(iter_days(season_date_ranges()))
 
 def main(api_key: str, output_csv: str, pause: float = 0.15):
-    dates = build_date_list()
+    # 1. Determine missing dates by comparing the two CSVs
+    home_csv = "home_games_with_point.csv"
+    odds_csv = output_csv
+    home_date_col = "Date_Parsed"
+    odds_date_col = "game_date_et"
+
+    last_home_date = get_last_date_from_csv(home_csv, home_date_col)
+    last_odds_date = get_last_date_from_csv(odds_csv, odds_date_col)
+
+    print(f"Last date in {home_csv}: {last_home_date}")
+    print(f"Last date in {odds_csv}: {last_odds_date}")
+
+    if last_home_date is not None and last_odds_date is not None:
+        if last_home_date > last_odds_date:
+            missing_dates = filter_dates_after(last_odds_date, home_csv, home_date_col)
+            print(f"Missing dates to process: {missing_dates}")
+            dates = list(missing_dates)
+        else:
+            print('No new dates to fetch. All up to date!')
+            return
+    else:
+        # fallback to previous behavior
+        dates = build_date_list()
+
     if not dates:
         print("No valid dates to query.")
         return
-    print(f"Loaded {len(dates)} date(s): {dates[0]} → {dates[-1]}")
+
+    print(f"Running for {len(dates)} date(s): {dates[0]} → {dates[-1]}")
     session = make_session()
 
-    wrote_header_once = os.path.exists(output_csv)  # if file exists, don't write header again
-
+    wrote_header_once = os.path.exists(output_csv)
     for day in dates:
         rows = fetch_day_totals_multi_snapshots(
             session, api_key, day,
@@ -259,7 +305,6 @@ def main(api_key: str, output_csv: str, pause: float = 0.15):
             day_df["commence_time"] = pd.to_datetime(day_df["commence_time"], utc=True, errors="coerce")
             day_df["game_date_et"] = day_df["commence_time"].dt.tz_convert("America/New_York").dt.date
 
-            # append-only write (no read-back, no cross-run dedupe)
             day_df.to_csv(
                 output_csv,
                 mode="a",
