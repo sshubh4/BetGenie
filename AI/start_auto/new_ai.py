@@ -1,15 +1,29 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-MLB Over/Under (price-aware, NO PUSHES):
-XGB Poisson (Optuna-tuned) -> per-line Isotonic (with global fallback) -> EV threshold
-+ season-aware rolling CV
-+ monotone constraints on interpretable features
-+ labels derived from final scores vs line (no pre-made label)
+MLB Totals (NO EV, push-free .5 lines)
+Goal: maximize classification accuracy/F1 for Over/Under.
+
+Pipeline:
+- XGB Poisson (predict total runs) -> p_over_poisson (via Poisson tail vs line)
+- Per-line Isotonic calibration (no pushes)
+- Logistic sidecar (binary:logistic on Over label)
+- OOF Stacking meta-model combines: [p_poi_cal, p_logit, mu, total_line, (mu - total_line)]
+- Global isotonic on blended prob
+- Threshold tuning:
+    - Global threshold that maximizes OOF accuracy
+    - Per-line-bucket thresholds (override when enough data)
+- Chronological TimeSeries CV
+- No prices used; no EV logic.
+
+Leak safety:
+- Excludes true outcomes/labels from features (R_home, R_away, total_runs, over_binary, over_under_label)
+- Uses only pre-game signals (line, weather, rolling_*, rest, etc.)
+- Chronological folds (no future→past bleed)
+
 Assumptions:
-- Totals are .5 (no pushes). If an integer appears, we still use P(total > floor(line)).
-- R_home, R_away (final scores) are NEVER used as features.
-- If prices are missing, EV falls back to -110/-110 (synthetic).
+- Dataset is 'jordan_final.csv' or 'home_games_with_point.csv'
+- Total line column is 'total_line' or 'Point'
 """
 
 import os
@@ -22,10 +36,14 @@ import optuna
 
 from sklearn.model_selection import TimeSeriesSplit
 from sklearn.isotonic import IsotonicRegression
-from sklearn.metrics import roc_auc_score, brier_score_loss, f1_score
+from sklearn.metrics import (
+    roc_auc_score, brier_score_loss, f1_score, accuracy_score,
+    precision_recall_fscore_support, confusion_matrix
+)
 from xgboost import XGBRegressor
 
 optuna.logging.set_verbosity(optuna.logging.WARNING)
+RANDOM_STATE = 42
 
 # ----------------------------- Helpers -----------------------------
 def poisson_cdf(k: int, mu: float) -> float:
@@ -49,8 +67,7 @@ def line_bucket(x: float) -> float:
 
 def p_over_from_mu_and_line_no_push(mu: np.ndarray, line: np.ndarray):
     """
-    Over prob for .5 lines (no pushes). If an integer line appears, we still
-    compute P(total > line) = 1 - CDF(floor(line)).
+    Over prob for .5 lines (no pushes). If an integer line appears, still use P(total > floor(line)).
     """
     p_over = np.zeros_like(mu, dtype=float)
     for i, (m, L) in enumerate(zip(mu, line)):
@@ -61,14 +78,7 @@ def p_over_from_mu_and_line_no_push(mu: np.ndarray, line: np.ndarray):
         p_over[i] = poisson_sf(k, float(m))
     return p_over
 
-def american_to_multiplier(odds):
-    if not np.isfinite(odds):
-        odds = -110.0
-    odds = float(odds)
-    return (100.0 / abs(odds)) if odds < 0 else (odds / 100.0)
-
 def make_season_folds(dates: pd.Series, n_splits=5):
-    """Rolling chronological folds based on dates."""
     order = np.argsort(pd.to_datetime(dates, errors='coerce').fillna(pd.Timestamp('1900-01-01')))
     idx = np.arange(len(dates))[order]
     tscv = TimeSeriesSplit(n_splits=n_splits)
@@ -76,9 +86,8 @@ def make_season_folds(dates: pd.Series, n_splits=5):
         yield idx[tr], idx[va]
 
 # ----------------------------- Load data -----------------------------
-DATA_PATH = "home_games_with_point.csv"
+DATA_PATH = "jordan_final.csv"
 if not os.path.exists(DATA_PATH):
-    # also allow your alternate filename:
     if os.path.exists("home_games_with_point.csv"):
         DATA_PATH = "home_games_with_point.csv"
     else:
@@ -86,60 +95,55 @@ if not os.path.exists(DATA_PATH):
 
 df = pd.read_csv(DATA_PATH)
 
-# Harmonize line column: support 'Point' (books) or 'total_line' (internal)
+# Harmonize total line column
 if 'total_line' not in df.columns:
     if 'Point' in df.columns:
         df['total_line'] = pd.to_numeric(df['Point'], errors='coerce')
     elif 'point' in df.columns:
         df['total_line'] = pd.to_numeric(df['point'], errors='coerce')
     else:
-        raise ValueError("No total line found: expected 'total_line' or 'Point'/'point' in the dataset.")
+        raise ValueError("No total line found: expected 'total_line' or 'Point'/'point'.")
 else:
     df['total_line'] = pd.to_numeric(df['total_line'], errors='coerce')
 
-required_raw = {'R_home', 'R_away', 'Date_Parsed', 'total_line'}
-missing = required_raw - set(df.columns)
+required = {'R_home', 'R_away', 'Date_Parsed', 'total_line'}
+missing = required - set(df.columns)
 if missing:
     raise ValueError(f"Dataset is missing required columns: {missing}")
 
 # Core filters
-df = df.copy()
 df['R_home'] = pd.to_numeric(df['R_home'], errors='coerce')
 df['R_away'] = pd.to_numeric(df['R_away'], errors='coerce')
 mask_ok = df['total_line'].notna() & df['R_home'].notna() & df['R_away'].notna()
-df = df.loc[mask_ok].reset_index(drop=True)
+df = df.loc[mask_ok].copy().reset_index(drop=True)
 
-# time order (also used in folds)
+# Time order
 df['Date_Parsed'] = pd.to_datetime(df['Date_Parsed'], errors='coerce')
 df = df.sort_values('Date_Parsed').reset_index(drop=True)
 
-# --- Derive labels from final score vs line (NO pushes) ---
+# Labels (push-free)
 df['total_runs'] = df['R_home'] + df['R_away']
 df['over_binary'] = (df['total_runs'] > df['total_line']).astype(int)
 df['over_under_label'] = np.where(df['over_binary'] == 1, 'over', 'under')
 
-# Ensure price columns exist (may be NaN, fallback -110 is used for EV)
-for c in ['price_over', 'price_under']:
-    if c not in df.columns:
-        df[c] = np.nan
-    df[c] = pd.to_numeric(df[c], errors='coerce')
-
-# ----------------------------- Features -----------------------------
-# Keep numerics; exclude only true outcomes/labels (keep all rolling_* features)
+# ----------------------------- Features (leak-safe) -----------------------------
+# Keep numerics; EXCLUDE true outcomes/labels ONLY (keep all rolling_* features)
 numeric_cols = [c for c in df.columns if np.issubdtype(df[c].dtype, np.number)]
-exclusions = {'R_home', 'R_away', 'total_runs', 'over_binary', 'over_under_label'}
-feature_cols = [c for c in numeric_cols if c not in exclusions]
+EXCLUDE = {'R_home', 'R_away', 'total_runs', 'over_binary', 'over_under_label'}
+feature_cols = [c for c in numeric_cols if c not in EXCLUDE]
 
+# Safety asserts
+assert EXCLUDE.isdisjoint(feature_cols), f"Leaky columns in features: {EXCLUDE & set(feature_cols)}"
+
+# Build matrices
 X_full = df[feature_cols].astype(float).fillna(0.0).values
 lines = df['total_line'].to_numpy()
 line_buckets_arr = np.array([line_bucket(x) for x in lines], dtype=float)
 dates = df['Date_Parsed'].copy()
-seasons_arr = dates.dt.year.to_numpy()
 
-# Labels for evaluation
 y_total = df['total_runs'].to_numpy()
-y_over_bin = df['over_binary'].to_numpy()
-y_eval_mask = np.isfinite(y_over_bin)
+y_over = df['over_binary'].to_numpy().astype(int)
+y_eval_mask = np.isfinite(y_over)
 
 # ----------------------------- Monotone constraints -----------------------------
 def build_monotone_constraints(cols):
@@ -148,230 +152,284 @@ def build_monotone_constraints(cols):
         if c == 'total_line':
             cons.append(1)      # higher line -> higher P(over)
         elif c == 'temperature_2m':
-            cons.append(1)      # warmer -> higher scoring tendency
+            cons.append(1)
         elif c == 'starter_era_sum':
-            cons.append(-1)     # better (lower) ERA -> lower scoring
+            cons.append(-1)
         else:
             cons.append(0)
     return "(" + ",".join(str(x) for x in cons) + ")"
 
-# ----------------------------- Optuna tuning (Poisson) -----------------------------
+# ----------------------------- Optuna tuning for Poisson -----------------------------
 def objective(trial):
     params = {
         'objective': 'count:poisson',
         'tree_method': 'hist',
-        'n_estimators': trial.suggest_int('n_estimators', 600, 1400),
+        'n_estimators': trial.suggest_int('n_estimators', 700, 1400),
         'max_depth': trial.suggest_int('max_depth', 3, 8),
-        'learning_rate': trial.suggest_float('learning_rate', 0.015, 0.08, log=True),
+        'learning_rate': trial.suggest_float('learning_rate', 0.02, 0.08, log=True),
         'subsample': trial.suggest_float('subsample', 0.7, 1.0),
         'colsample_bytree': trial.suggest_float('colsample_bytree', 0.7, 1.0),
         'reg_alpha': trial.suggest_float('reg_alpha', 1e-8, 3.0, log=True),
         'reg_lambda': trial.suggest_float('reg_lambda', 1e-8, 3.0, log=True),
-        'random_state': 42,
+        'random_state': RANDOM_STATE,
         'monotone_constraints': build_monotone_constraints(feature_cols),
     }
-
     aucs = []
     for tr_idx, va_idx in make_season_folds(dates, n_splits=5):
         Xtr, Xva = X_full[tr_idx], X_full[va_idx]
         ytr = y_total[tr_idx]
-        y_over_va = y_over_bin[va_idx]
-
+        yva_over = y_over[va_idx]
         m = XGBRegressor(**params)
         m.fit(Xtr, ytr, verbose=False)
         mu_va = np.clip(m.predict(Xva), 1e-6, 50)
         p_over_raw = p_over_from_mu_and_line_no_push(mu_va, lines[va_idx])
         mask = np.isfinite(p_over_raw)
-        y_true = y_over_va[mask]
+        y_true = yva_over[mask]
         if y_true.size > 0 and np.unique(y_true).size > 1:
             aucs.append(roc_auc_score(y_true, p_over_raw[mask]))
-
     return float(np.mean(aucs)) if aucs else 0.0
 
-print("🔎 Optuna tuning (Poisson)...")
+print("🔎 Optuna tuning (Poisson)…")
 study = optuna.create_study(direction='maximize')
 study.optimize(objective, n_trials=40)
 best_params = study.best_params
 best_params['monotone_constraints'] = build_monotone_constraints(feature_cols)
-print("✅ Best params:", best_params)
+print("✅ Best Poisson params:", best_params)
 
-# ----------------------------- CV Train & Calibrate (plain per-line iso) -----------------------------
-oof_p_over_raw = np.full(len(df), np.nan)
-oof_p_over_cal = np.full(len(df), np.nan)
+# ----------------------------- CV Train: Poisson + per-line Isotonic + Logistic + capture μ -----------------------------
+oof_poisson_raw = np.full(len(df), np.nan)
+oof_poisson_cal = np.full(len(df), np.nan)
+oof_logit = np.full(len(df), np.nan)
+oof_mu = np.full(len(df), np.nan)
 
 for fold_id, (tr_idx, va_idx) in enumerate(make_season_folds(dates, n_splits=5), start=1):
     Xtr, Xva = X_full[tr_idx], X_full[va_idx]
-    ytr, yva_total = y_total[tr_idx], y_total[va_idx]
+    ytr_total, yva_total = y_total[tr_idx], y_total[va_idx]
+    ytr_over,  yva_over  = y_over[tr_idx],  y_over[va_idx]
     lines_va = lines[va_idx]
     buckets_va = line_buckets_arr[va_idx]
 
-    model = XGBRegressor(
+    # Poisson on total runs
+    model_poi = XGBRegressor(
         objective='count:poisson',
         tree_method='hist',
-        random_state=42,
+        random_state=RANDOM_STATE,
         **best_params
     )
-    model.fit(Xtr, ytr, eval_set=[(Xva, yva_total)], verbose=False)
-
-    mu_va = np.clip(model.predict(Xva), 1e-6, 50)
+    model_poi.fit(Xtr, ytr_total, eval_set=[(Xva, yva_total)], verbose=False)
+    mu_va = np.clip(model_poi.predict(Xva), 1e-6, 50)
+    oof_mu[va_idx] = mu_va
     p_over_raw = p_over_from_mu_and_line_no_push(mu_va, lines_va)
-    oof_p_over_raw[va_idx] = p_over_raw
+    oof_poisson_raw[va_idx] = p_over_raw
 
-    # per-bucket isotonic + global fallback
-    mask_eval = np.isfinite(p_over_raw)
-    yva_over = y_over_bin[va_idx][mask_eval]
-    pva_raw = p_over_raw[mask_eval]
-    bva = buckets_va[mask_eval]
+    # Per-line-bucket isotonic + fallback (on Poisson raw)
+    mask = np.isfinite(p_over_raw)
+    yva_over_masked = yva_over[mask]
+    pva_raw = p_over_raw[mask]
+    bva = buckets_va[mask]
 
-    cals_this_fold = {}
+    cals = {}
     iso_fallback = None
-    if len(yva_over) >= 50 and np.unique(yva_over).size > 1:
-        iso_fallback = IsotonicRegression(y_min=0, y_max=1, out_of_bounds='clip').fit(pva_raw, yva_over)
+    if len(yva_over_masked) >= 50 and np.unique(yva_over_masked).size > 1:
+        iso_fallback = IsotonicRegression(y_min=0, y_max=1, out_of_bounds='clip').fit(pva_raw, yva_over_masked)
 
     for b in np.unique(bva):
         idx_b = (bva == b)
         if idx_b.sum() >= 25:
-            yb = yva_over[idx_b]
+            yb = yva_over_masked[idx_b]
             if np.unique(yb).size > 1:
                 iso = IsotonicRegression(y_min=0, y_max=1, out_of_bounds='clip')
                 iso.fit(pva_raw[idx_b], yb)
-                cals_this_fold[float(b)] = iso
+                cals[float(b)] = iso
 
-    # apply iso calibration
     p_cal = p_over_raw.copy()
     for i in range(len(p_cal)):
         if not np.isfinite(p_cal[i]):
             continue
         b = buckets_va[i]
-        if b in cals_this_fold:
-            p_cal[i] = cals_this_fold[b].predict([p_cal[i]])[0]
+        if b in cals:
+            p_cal[i] = cals[b].predict([p_cal[i]])[0]
         elif iso_fallback is not None:
             p_cal[i] = iso_fallback.predict([p_cal[i]])[0]
+    oof_poisson_cal[va_idx] = p_cal
 
-    oof_p_over_cal[va_idx] = p_cal
-    print(f"Fold {fold_id}: {len(cals_this_fold)} bucket calibrators"
-          f"{' + fallback' if iso_fallback is not None else ''}")
+    # Logistic sidecar (direct over/under)
+    model_log = XGBRegressor(
+        objective='binary:logistic',
+        tree_method='hist',
+        random_state=RANDOM_STATE,
+        n_estimators=800,
+        max_depth=5,
+        learning_rate=0.03,
+        subsample=0.9,
+        colsample_bytree=0.9,
+        reg_alpha=1e-4,
+        reg_lambda=1e-3,
+        monotone_constraints=build_monotone_constraints(feature_cols),
+    )
+    model_log.fit(Xtr, ytr_over, verbose=False)  # .predict returns prob for binary:logistic
+    p_logit = np.clip(model_log.predict(Xva), 1e-6, 1 - 1e-6)
+    oof_logit[va_idx] = p_logit
 
-# ----------------------------- OOF Metrics -----------------------------
-mask_eval = y_eval_mask & np.isfinite(oof_p_over_cal)
-y_true = y_over_bin[mask_eval].astype(int)
-p_cal = oof_p_over_cal[mask_eval]
+    print(f"Fold {fold_id}: {len(cals)} bucket calibrators{' + fallback' if iso_fallback is not None else ''} + logistic sidecar")
 
-roc = roc_auc_score(y_true, p_cal) if np.unique(y_true).size > 1 else float('nan')
-brier = brier_score_loss(y_true, p_cal)
-f1_05 = f1_score(y_true, (p_cal >= 0.5).astype(int))
-print("\nOOF base metrics -> ROC-AUC: %.4f | Brier: %.4f | F1@0.50: %.4f" % (roc, brier, f1_05))
+# ----------------------------- OOF Stacking meta-model + global isotonic + thresholds -----------------------------
+mask_eval = y_eval_mask & np.isfinite(oof_poisson_cal) & np.isfinite(oof_logit) & np.isfinite(oof_mu)
+y_true = y_over[mask_eval].astype(int)
 
-# ----------------------------- EV threshold (price-aware; defaults to -110 if missing) -----------------------------
-EV_GRID = np.arange(0.0, 0.151, 0.005)
-MIN_BETS = 12000
-SEASON_OK_RATIO = 0.60
-CAP_PER_BET = 0.25
+p_poi = oof_poisson_cal[mask_eval]
+p_log = oof_logit[mask_eval]
+mu_oof = oof_mu[mask_eval]
+line_oof = lines[mask_eval]
+residual = mu_oof - line_oof
 
-prices_over  = pd.to_numeric(df.loc[mask_eval, 'price_over' ]).to_numpy()
-prices_under = pd.to_numeric(df.loc[mask_eval, 'price_under']).to_numpy()
-seasons_eval = seasons_arr[mask_eval]
+# Meta features: strictly pre-game derived
+X_meta = np.column_stack([p_poi, p_log, mu_oof, line_oof, residual])
 
-best_thr, best_profit, best_bets, best_winrate = 0.0, -1e9, 0, 0.0
-for thr in EV_GRID:
-    profit = 0.0
-    bets = 0
-    wins = 0
-    season_pnl = {}
+meta_model = XGBRegressor(
+    objective='binary:logistic',
+    tree_method='hist',
+    random_state=RANDOM_STATE,
+    n_estimators=400,
+    max_depth=3,
+    learning_rate=0.05,
+    subsample=0.9,
+    colsample_bytree=0.9,
+    reg_alpha=1e-4,
+    reg_lambda=1e-3,
+)
+meta_model.fit(X_meta, y_true, verbose=False)
+p_meta = np.clip(meta_model.predict(X_meta), 1e-6, 1-1e-6)
 
-    for i, prob in enumerate(p_cal):
-        # price-aware EV (no push); falls back to -110/-110 if NaN
-        ev_o = prob * american_to_multiplier(prices_over[i]) - (1.0 - prob) * 1.0
-        ev_u = (1.0 - prob) * american_to_multiplier(prices_under[i]) - prob * 1.0
-        # cap outliers
-        ev_o = max(-CAP_PER_BET, min(CAP_PER_BET, ev_o))
-        ev_u = max(-CAP_PER_BET, min(CAP_PER_BET, ev_u))
+# Global isotonic on meta prob
+if np.unique(y_true).size > 1:
+    iso_blend = IsotonicRegression(y_min=0, y_max=1, out_of_bounds='clip').fit(p_meta, y_true)
+    p_blend_cal = iso_blend.predict(p_meta)
+else:
+    iso_blend = None
+    p_blend_cal = p_meta.copy()
 
-        chosen = 1 if ev_o >= ev_u else 0
-        ev_chosen = ev_o if chosen == 1 else ev_u
+# Global threshold tuning for accuracy
+thr_grid = np.linspace(0.40, 0.60, 81)
+best_thr, best_acc = 0.50, -1.0
+for thr in thr_grid:
+    acc = accuracy_score(y_true, (p_blend_cal >= thr).astype(int))
+    if acc > best_acc:
+        best_acc, best_thr = float(acc), float(thr)
+print(f"\nMeta + isotonic tuned: thr={best_thr:.3f} | OOF ACC={best_acc:.4f}")
 
-        if ev_chosen > thr:
-            bets += 1
-            win_mult = american_to_multiplier(prices_over[i] if chosen == 1 else prices_under[i])
-            if y_true[i] == chosen:
-                profit += win_mult
-                wins += 1
-                season_pnl[seasons_eval[i]] = season_pnl.get(seasons_eval[i], 0.0) + win_mult
-            else:
-                profit -= 1.0
-                season_pnl[seasons_eval[i]] = season_pnl.get(seasons_eval[i], 0.0) - 1.0
+# Per-line-bucket thresholds (override when enough samples)
+buckets = line_buckets_arr[mask_eval]
+per_bucket_thr = {}
+min_bucket = 120
+for b in np.unique(buckets[np.isfinite(buckets)]):
+    idx = (buckets == b)
+    if idx.sum() >= min_bucket:
+        best_b, best_a = best_thr, -1.0
+        for thr in thr_grid:
+            a = accuracy_score(y_true[idx], (p_blend_cal[idx] >= thr).astype(int))
+            if a > best_a:
+                best_a, best_b = float(a), float(thr)
+        per_bucket_thr[float(b)] = best_b
 
-    if bets >= MIN_BETS and season_pnl:
-        ok_ratio = np.mean([1.0 if v >= -1e-9 else 0.0 for v in season_pnl.values()])
-        if ok_ratio >= SEASON_OK_RATIO and profit > best_profit:
-            best_profit = profit
-            best_thr = float(thr)
-            best_bets = bets
-            best_winrate = wins / bets if bets else 0.0
+def predict_with_bucket_thresholds(p, b, per_thr, global_thr):
+    out = np.zeros_like(p, dtype=int)
+    for i in range(len(p)):
+        thr = per_thr.get(float(b[i]), global_thr)
+        out[i] = 1 if p[i] >= thr else 0
+    return out
 
-print("\n======= OOF Performance (Poisson → per-line Isotonic → EV threshold, no pushes) =======")
-print(f"OOF ROC-AUC: {roc:.4f} | OOF Brier: {brier:.4f} | F1@0.50: {f1_05:.4f}")
-print(f"Best EV threshold: {best_thr:.3f} | Bets: {best_bets} | Win%: {best_winrate:.3f} | Units (approx): {best_profit:.2f}")
+y_pred = predict_with_bucket_thresholds(p_blend_cal, buckets, per_bucket_thr, best_thr)
 
-# ----------------------------- Fit final model & global calibrators -----------------------------
-print("\nTraining final model on all data...")
-final_model = XGBRegressor(
+# Final OOF metrics
+roc = roc_auc_score(y_true, p_blend_cal) if np.unique(y_true).size > 1 else float('nan')
+brier = brier_score_loss(y_true, p_blend_cal)
+acc = accuracy_score(y_true, y_pred)
+prec, rec, f1, _ = precision_recall_fscore_support(y_true, y_pred, average='binary', zero_division=0)
+cm = confusion_matrix(y_true, y_pred)
+
+print("\n======= OOF Classification (NO EV, Meta + Iso + Bucket thresholds) =======")
+print(f"ROC-AUC: {roc:.4f} | Brier: {brier:.4f} | Accuracy: {acc:.4f} | Precision: {prec:.4f} | Recall: {rec:.4f} | F1: {f1:.4f}")
+print("Confusion matrix [ [TN FP]; [FN TP] ]:")
+print(cm)
+print(f"Buckets with custom thresholds: {len(per_bucket_thr)}")
+if len(per_bucket_thr):
+    print("Sample per-bucket thresholds:", sorted(per_bucket_thr.items())[:8])
+
+# ----------------------------- Fit final base models & global Poisson calibrators -----------------------------
+print("\nTraining final models on ALL data…")
+final_model_poisson = XGBRegressor(
     objective='count:poisson',
     tree_method='hist',
-    random_state=42,
+    random_state=RANDOM_STATE,
     **best_params
 )
-final_model.fit(X_full, y_total, verbose=False)
+final_model_poisson.fit(X_full, y_total, verbose=False)
 
-# Global isotonic from OOF raw (unweighted), by bucket + fallback
+final_model_logit = XGBRegressor(
+    objective='binary:logistic',
+    tree_method='hist',
+    random_state=RANDOM_STATE,
+    n_estimators=800,
+    max_depth=5,
+    learning_rate=0.03,
+    subsample=0.9,
+    colsample_bytree=0.9,
+    reg_alpha=1e-4,
+    reg_lambda=1e-3,
+    monotone_constraints=build_monotone_constraints(feature_cols),
+)
+final_model_logit.fit(X_full, y_over, verbose=False)
+
+# Global isotonic from OOF Poisson raw (for inference calibration to p_poi_cal)
 global_by_bucket = {}
 global_fallback = None
-mask_all = np.isfinite(oof_p_over_raw)
-if mask_all.sum() >= 50 and np.unique(y_over_bin[mask_all]).size > 1:
+mask_all = np.isfinite(oof_poisson_raw)
+if mask_all.sum() >= 50 and np.unique(y_over[mask_all]).size > 1:
     global_fallback = IsotonicRegression(y_min=0, y_max=1, out_of_bounds='clip').fit(
-        oof_p_over_raw[mask_all], y_over_bin[mask_all].astype(int)
+        oof_poisson_raw[mask_all], y_over[mask_all].astype(int)
     )
 for b in np.unique(line_buckets_arr[mask_all]):
     idx = mask_all & (line_buckets_arr == b)
-    if idx.sum() >= 50 and np.unique(y_over_bin[idx]).size > 1:
+    if idx.sum() >= 50 and np.unique(y_over[idx]).size > 1:
         iso = IsotonicRegression(y_min=0, y_max=1, out_of_bounds='clip')
-        iso.fit(oof_p_over_raw[idx], y_over_bin[idx].astype(int))
+        iso.fit(oof_poisson_raw[idx], y_over[idx].astype(int))
         global_by_bucket[float(b)] = iso
 
 # ----------------------------- Persist -----------------------------
-os.makedirs("models_xgb_poisson", exist_ok=True)
+os.makedirs("models_totals_no_ev", exist_ok=True)
 
 joblib.dump({
-    'model': final_model,
+    'model_poisson': final_model_poisson,
+    'model_logit': final_model_logit,
+    'meta_model': meta_model,
     'feature_cols': feature_cols,
     'monotone_constraints': best_params['monotone_constraints'],
-}, "models_xgb_poisson/model.joblib")
+    'global_threshold': best_thr,
+    'per_bucket_thresholds': per_bucket_thr,  # may be empty
+}, "models_totals_no_ev/model.joblib")
 
 joblib.dump({
-    'by_bucket': global_by_bucket,
-    'fallback': global_fallback,
-    'line_bucket_fn': 'round(x*2)/2',
-    'ev_threshold': best_thr
-}, "models_xgb_poisson/calibration.joblib")
+    'poisson_iso_by_bucket': global_by_bucket,
+    'poisson_iso_fallback': global_fallback,
+    'blend_iso_global': iso_blend,          # global isotonic for the meta-blended prob
+    'line_bucket_fn': 'round(x*2)/2'
+}, "models_totals_no_ev/calibration.joblib")
 
-with open("models_xgb_poisson/metrics_oof.json", "w") as f:
+with open("models_totals_no_ev/metrics_oof.json", "w") as f:
     json.dump({
-        'oof_roc_auc': float(roc),
-        'oof_brier': float(brier),
-        'oof_f1_at_0.50': float(f1_05),
-        'best_ev_threshold': best_thr,
-        'best_total_units': float(best_profit),
-        'best_bets': int(best_bets),
-        'best_winrate': float(best_winrate),
-        'best_params': best_params
+        'roc_auc': float(roc),
+        'brier': float(brier),
+        'accuracy': float(acc),
+        'precision': float(prec),
+        'recall': float(rec),
+        'f1': float(f1),
+        'global_threshold': float(best_thr),
+        'num_bucket_thresholds': int(len(per_bucket_thr)),
+        'best_poisson_params': best_params
     }, f, indent=2)
 
-# Preview derived labels (for sanity)
-df_out = df.copy()
-df_out[['total_runs', 'over_under_label']].to_csv("models_xgb_poisson/labels_preview.csv", index=False)
-
 print("\nSaved:")
-print(" - models_xgb_poisson/model.joblib")
-print(" - models_xgb_poisson/calibration.joblib")
-print(" - models_xgb_poisson/metrics_oof.json")
-print(" - models_xgb_poisson/labels_preview.csv")
+print(" - models_totals_no_ev/model.joblib")
+print(" - models_totals_no_ev/calibration.joblib")
+print(" - models_totals_no_ev/metrics_oof.json")
