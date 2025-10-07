@@ -1,0 +1,2 @@
+datetime_utc,temperature_2m,relative_humidity_2m,precipitation,rain,wind_speed_10m,wind_speed_100m,wind_direction_10m,wind_direction_100m,wind_gusts_10m,apparent_temperature,Loc,Original_Loc,Date,Time
+2025-04-19 14:38:00+00:00,24.124,81.57894,0.2,0.2,12.503199,18.865683,149.74365,150.25522,28.08,26.56012,HOU,HOU,2025-04-19,14:38

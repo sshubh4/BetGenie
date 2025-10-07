@@ -1,0 +1,19 @@
+Model: xgb
+Features: 32
+Best global threshold: 0.0700
+OOF F1: 0.6183
+OOF ROC-AUC: 0.5180
+Confusion matrix (tn, fp; fn, tp):
+[[ 376 1812]
+ [ 344 1746]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.5222    0.1718    0.2586      2188
+           1     0.4907    0.8354    0.6183      2090
+
+    accuracy                         0.4960      4278
+   macro avg     0.5065    0.5036    0.4384      4278
+weighted avg     0.5068    0.4960    0.4343      4278
+

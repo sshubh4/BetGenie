@@ -1,0 +1,17 @@
+Fold F1 thresholds: 0.010, 0.010, 0.010, 0.010, 0.010
+Global F1 thr: 0.010
+Global EV  thr: 0.500
+OOF AUC: 0.5348
+OOF Brier: 0.2841
+Confusion matrix:
+[[1402  786]
+ [1236  854]]
+
+              precision    recall  f1-score   support
+
+           0     0.5315    0.6408    0.5810      2188
+           1     0.5207    0.4086    0.4579      2090
+
+    accuracy                         0.5273      4278
+   macro avg     0.5261    0.5247    0.5195      4278
+weighted avg     0.5262    0.5273    0.5209      4278

@@ -1,0 +1,14 @@
+{
+  "oof_roc_auc": 0.5720212178632693,
+  "oof_brier": 0.24725121885722762,
+  "oof_f1_at_0.50": 0.523960594423109,
+  "thr_mean": -0.02,
+  "thr_lb": 0.015000000000000003,
+  "best_total_units": 0.3418,
+  "best_bets": 18,
+  "best_winrate": 1.0,
+  "n_models": 25,
+  "lb_percentile": 5,
+  "agree_min": 0.8,
+  "min_bets": 500
+}

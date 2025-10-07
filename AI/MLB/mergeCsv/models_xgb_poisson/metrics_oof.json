@@ -1,0 +1,19 @@
+{
+  "oof_roc_auc": 0.6025438534864631,
+  "oof_brier": 0.2393044054996223,
+  "oof_f1_at_0_50": 0.5084033613445378,
+  "best_ev_threshold": 0.005,
+  "best_total_units": 1.6577000000000006,
+  "best_bets": 87,
+  "best_winrate": 1.0,
+  "best_mu_params": {
+    "n_estimators": 562,
+    "max_depth": 3,
+    "learning_rate": 0.013740248678218514,
+    "subsample": 0.7456164656010823,
+    "colsample_bytree": 0.7962785847072125,
+    "reg_alpha": 9.216577018293057e-06,
+    "reg_lambda": 6.257536095275678e-05
+  },
+  "n_features": 28
+}

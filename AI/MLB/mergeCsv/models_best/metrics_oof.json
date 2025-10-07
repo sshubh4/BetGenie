@@ -1,0 +1,19 @@
+{
+  "oof_roc_auc": 0.5250461671019873,
+  "oof_brier": 0.27125977093552295,
+  "oof_f1_at_0.50": 0.4717966573816156,
+  "best_ev_threshold": 0.02,
+  "best_total_units": -1.0,
+  "best_bets": 1,
+  "best_winrate": 0.0,
+  "feature_count": 77,
+  "dropped_cols": [
+    "R_away",
+    "R_home",
+    "over_result",
+    "over_under_label"
+  ],
+  "strict_pre_game": false,
+  "n_trials": 60,
+  "n_seeds": 3
+}

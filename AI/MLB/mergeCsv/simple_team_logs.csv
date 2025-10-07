@@ -1,0 +1,599 @@
+Gm#,Date,Boxscore,Boxscore URL,Tm,At,Opp,W/L,R,RA,Inn,W-L,Rank,GB,Win,Loss,Save,Time,D/N,Attendance,cLI,Streak,Orig. Scheduled,Season,Num_Batters
+137,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202508300.shtml,ARI,@,LAD,W,6,1,,68-69,3,9.5,Rodríguez,Glasnow,,2:38,N,"47,632",.27,++++,,2025,0
+138,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202508310.shtml,ARI,@,LAD,L-wo,4,5,,68-70,4,10.5,Treinen,Curtiss,,2:27,D,"51,803",.39,-,,2025,0
+139,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509010.shtml,ARI,,TEX,L,5,7,10,68-71,4,11.0,Martin,Burgos,Armstrong,3:17,N,"26,489",.31,--,,2025,0
+140,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509020.shtml,ARI,,TEX,W,5,3,,69-71,4,10.0,Beeks,Milner,Rashi,2:27,N,"22,046",.18,+,,2025,0
+141,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509030.shtml,ARI,,TEX,W,2,0,,70-71,4,9.0,Gallen,Leiter,Woodford,2:30,D,"14,921",.23,++,,2025,0
+142,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509050.shtml,ARI,,BOS,W,10,5,,71-71,4,7.5,Rodríguez,Tolle,,2:50,N,"39,126",.37,+++,,2025,0
+143,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509060.shtml,ARI,,BOS,W,5,1,,72-71,4,6.5,Pfaadt,Giolito,,2:29,N,"35,679",.47,++++,,2025,0
+144,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509070.shtml,ARI,,BOS,L,4,7,,72-72,4,7.5,Whitlock,Rashi,Chapman,3:10,D,"31,346",.60,-,,2025,0
+145,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509080.shtml,ARI,@,SFG,L,5,11,,72-73,4,8.5,Webb,Garcia,,2:20,N,"26,699",.50,--,,2025,0
+146,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509090.shtml,ARI,@,SFG,L,3,5,,72-74,4,9.5,Ray,Gallen,Walker,2:29,N,"30,883",.41,---,,2025,0
+147,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509100.shtml,ARI,@,SFG,W,5,3,,73-74,4,9.5,Rodríguez,Seymour,,2:48,D,"33,810",.34,+,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509120.shtml,ARI,@,MIN,L-wo,8,9,,73-75,4,9.5,Sands,Woodford,,2:56,N,"18,177",.51,-,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509130.shtml,ARI,@,MIN,W,5,2,10,74-75,4,9.5,Curtiss,Sands,,3:15,N,"21,227",.44,+,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509140.shtml,ARI,@,MIN,W,6,4,,75-75,4,9.5,Crismatt,Ober,Backhus,3:00,D,"18,376",.75,++,,2025,0
+151,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509150.shtml,ARI,,SFG,W,8,1,,76-75,3,8.5,Gallen,Gage,,2:27,N,"21,521",1.26,+++,,2025,0
+152,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509160.shtml,ARI,,SFG,W-wo,6,5,,77-75,3,7.5,Saalfrank,Walker,,2:34,N,"26,431",1.46,++++,,2025,0
+153,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509170.shtml,ARI,,SFG,L,1,5,11,77-76,3,8.5,Peguero,Curtiss,,2:50,D,"19,513",1.62,-,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509190.shtml,ARI,,PHI,L,2,8,,77-77,3,10.0,Buehler,Beeks,,2:59,N,"36,981",1.15,--,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509200.shtml,ARI,,PHI,W,4,3,,78-77,3,10.0,Gallen,Nola,Curtiss,2:32,N,"35,498",.59,+,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202508300.shtml,ATL,@,PHI,L-wo,2,3,10,61-75,4,18.0,Strahm,Stratton,,2:44,N,"43,462",.00,---,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202508310.shtml,ATL,@,PHI,W,3,1,,62-75,4,17.0,Kinley,Alvarado,Iglesias,2:46,N,"43,770",.00,+,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509010.shtml,ATL,@,CHC,L-wo,6,7,10,62-76,4,18.0,Kittredge,Brebbia,,3:10,D,"39,673",.00,-,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509020.shtml,ATL,@,CHC,L,3,4,,62-77,4,18.5,Imanaga,Wentz,Palencia,2:33,N,"32,618",.00,--,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509030.shtml,ATL,@,CHC,W,5,1,,63-77,4,17.5,Elder,Brown,,2:25,N,"31,933",.00,+,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509050.shtml,ATL,,SEA,W,4,1,,64-77,4,18.0,Kinley,Speier,Iglesias,2:23,N,"36,203",.00,++,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509060.shtml,ATL,,SEA,L,2,10,,64-78,4,19.0,Speier,Hernández,,3:00,N,"35,700",.00,-,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509070.shtml,ATL,,SEA,L,2,18,,64-79,4,19.0,Castillo,Wentz,,2:56,D,"31,119",.00,--,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509080.shtml,ATL,,CHC,W,4,1,,65-79,4,19.0,Elder,Imanaga,Iglesias,2:13,N,"33,430",.00,+,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509090.shtml,ATL,,CHC,L,1,6,,65-80,4,20.0,Horton,Strider,,2:24,N,"32,721",.00,-,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509100.shtml,ATL,,CHC,L,2,3,,65-81,4,21.0,Rogers,Sale,Kittredge,2:43,N,"35,757",.00,--,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509120.shtml,ATL,,HOU,L,3,11,,65-82,4,22.5,Blubaugh,Waldrep,Gordon,2:31,N,"34,030",.00,---,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509130.shtml,ATL,,HOU,L,2,6,,65-83,4,23.5,Brown,Elder,,2:46,N,"36,826",.00,----,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509140.shtml,ATL,,HOU,W,8,3,,66-83,4,22.5,Stratton,Valdez,,2:58,D,"32,807",.00,+,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509150.shtml,ATL,@,WSN,W,11,3,,67-83,4,22.5,Strider,Parker,,2:51,N,"13,979",.00,++,,2025,0
+151,"Tuesday, Sep 16 (1)",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509161.shtml,ATL,@,WSN,W,6,3,,68-83,4,22.0,Suarez,Irvin,Iglesias,2:25,D,"15,584",.00,+++,,2025,0
+152,"Tuesday, Sep 16 (2)",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509162.shtml,ATL,@,WSN,W,5,0,10,69-83,4,22.0,Kinley,Thompson,,2:49,N,"19,216",.00,++++,,2025,0
+153,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509170.shtml,ATL,@,WSN,W,9,4,,70-83,4,21.0,Waldrep,Beeter,,2:55,D,"14,420",.00,+++++,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509190.shtml,ATL,@,DET,W,10,1,,71-83,4,21.0,Elder,Morton,,2:21,N,"33,554",.00,++++++,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509200.shtml,ATL,@,DET,W,6,5,,72-83,4,20.0,Dodd,Vest,Iglesias,2:52,D,"38,079",.00,+++++++,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202508300.shtml,BAL,@,SFG,W,11,1,,61-75,5,17.0,Rogers,Seymour,,2:40,D,"37,711",.00,+,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202508310.shtml,BAL,@,SFG,L,2,13,,61-76,5,18.0,Verlander,Sugano,Bivens,3:12,D,"39,220",.00,-,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509010.shtml,BAL,@,SDP,W,4,3,,62-76,5,17.0,Enns,Adam,Akin,3:06,D,"45,586",.00,+,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509020.shtml,BAL,@,SDP,W,6,2,,63-76,5,17.0,Wells,Darvish,,3:05,N,"42,536",.00,++,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509030.shtml,BAL,@,SDP,W,7,5,,64-76,5,17.0,Povich,Cortés,Cano,2:43,D,"35,019",.00,+++,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509050.shtml,BAL,,LAD,W-wo,2,1,,65-76,5,17.0,Cano,Scott,,3:01,N,"25,481",.00,++++,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509060.shtml,BAL,,LAD,W-wo,4,3,,66-76,5,16.0,Suárez,Treinen,,2:45,N,"42,612",.00,+++++,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509070.shtml,BAL,,LAD,L,2,5,,66-77,5,16.0,Kershaw,Sugano,Dreyer,2:52,D,"27,874",.00,-,,2025,0
+144,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509090.shtml,BAL,,PIT,W-wo,3,2,11,67-77,5,16.0,Enns,Moreta,,3:00,N,"15,488",.00,+,,2025,0
+145,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509100.shtml,BAL,,PIT,W-wo,2,1,10,68-77,5,15.0,Suárez,Nicolas,,2:58,N,"18,210",.00,++,,2025,0
+146,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509110.shtml,BAL,,PIT,W,3,2,,69-77,5,15.0,Wolfram,Holderman,Akin,2:36,D,"13,957",.00,+++,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509120.shtml,BAL,@,TOR,L,1,6,,69-78,5,16.0,Fisher,Enns,,2:42,N,"34,376",.00,-,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509130.shtml,BAL,@,TOR,L-wo,4,5,,69-79,5,17.0,Fisher,Cano,,2:42,D,"42,461",.00,--,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509140.shtml,BAL,@,TOR,L,2,11,,69-80,5,18.0,Bieber,Wolfram,,2:28,D,"42,032",.00,---,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509150.shtml,BAL,@,CHW,W,4,1,,70-80,5,18.0,Bradish,Wilson,Enns,2:50,N,"11,020",.00,+,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509160.shtml,BAL,@,CHW,W,8,7,,71-80,5,18.0,Kremer,Smith,Akin,3:05,N,"12,428",.00,++,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509170.shtml,BAL,@,CHW,W,3,1,,72-80,5,17.0,Wells,Pérez,Akin,2:42,D,"10,919",.00,+++,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509180.shtml,BAL,,NYY,L,0,7,,72-81,5,17.0,Fried,Povich,,2:38,N,"25,253",.00,-,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509190.shtml,BAL,,NYY,W,4,2,,73-81,5,16.0,Rogers,Warren,Akin,2:30,N,"26,269",.00,+,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509200.shtml,BAL,,NYY,L,1,6,,73-82,5,16.0,Rodón,Sugano,,2:35,N,"37,675",.00,-,,2025,0
+137,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202508300.shtml,BOS,,PIT,L,3,10,,75-62,3,3.5,Oviedo,May,,2:48,D,"36,391",1.24,--,,2025,0
+138,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202508310.shtml,BOS,,PIT,W,5,2,,76-62,3,3.5,Giolito,Keller,Chapman,2:29,D,"36,583",1.34,+,,2025,0
+139,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509010.shtml,BOS,,CLE,W,6,4,,77-62,2,2.5,Bello,Sabrowski,Chapman,2:54,D,"36,021",1.32,++,,2025,0
+140,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509020.shtml,BOS,,CLE,W,11,7,,78-62,2,2.5,Slaten,Gaddis,,2:26,N,"34,902",1.37,+++,,2025,0
+141,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509030.shtml,BOS,,CLE,L,1,8,,78-63,2,3.5,Cantillo,Bernardino,,2:52,N,"36,658",1.20,-,,2025,0
+142,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509050.shtml,BOS,@,ARI,L,5,10,,78-64,3,4.5,Rodríguez,Tolle,,2:50,N,"39,126",1.02,--,,2025,0
+143,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509060.shtml,BOS,@,ARI,L,1,5,,78-65,3,4.5,Pfaadt,Giolito,,2:29,N,"35,679",.93,---,,2025,0
+144,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509070.shtml,BOS,@,ARI,W,7,4,,79-65,3,3.5,Whitlock,Rashi,Chapman,3:10,D,"31,346",.97,+,,2025,0
+145,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509080.shtml,BOS,@,ATH,W,7,0,,80-65,3,3.0,Crochet,Morales,,2:19,N,"10,079",1.07,++,,2025,0
+146,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509090.shtml,BOS,@,ATH,W,6,0,,81-65,2,3.0,Early,Springs,,2:42,N,"10,066",1.15,+++,,2025,0
+147,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509100.shtml,BOS,@,ATH,L-wo,4,5,,81-66,2,3.0,Harris,Chapman,,2:45,D,"9,634",1.13,-,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509120.shtml,BOS,,NYY,L,1,4,,81-67,3,4.5,Gil,Giolito,Bednar,2:57,N,"36,760",1.43,--,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509130.shtml,BOS,,NYY,L,3,5,,81-68,3,5.5,Fried,Bello,Bednar,3:13,D,"36,315",1.48,---,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509140.shtml,BOS,,NYY,W,6,4,,82-68,3,5.5,Crochet,Warren,Chapman,2:35,N,"35,437",1.69,+,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509160.shtml,BOS,,ATH,L,1,2,,82-69,3,7.0,Spence,Weissert,Harris,2:48,N,"35,886",1.10,-,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509170.shtml,BOS,,ATH,W-wo,5,4,10,83-69,3,6.0,Murphy,Kelly,,3:34,N,"36,404",1.34,+,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509180.shtml,BOS,,ATH,L,3,5,,83-70,3,6.0,Ginn,Bello,Harris,2:28,D,"32,838",1.19,-,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509190.shtml,BOS,@,TBR,W,11,7,,84-70,3,5.0,Crochet,Cleavinger,,3:01,N,"10,046",1.50,+,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509200.shtml,BOS,@,TBR,W,6,3,,85-70,3,4.0,Whitlock,Scholtens,Chapman,2:54,N,"10,046",1.42,++,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/COL/COL202508300.shtml,CHC,@,COL,W,4,3,,78-58,2,6.5,Assad,Brown,Palencia,2:35,N,"47,394",.67,++,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/COL/COL202508310.shtml,CHC,@,COL,L-wo,5,6,,78-59,2,6.5,Mejia,Palencia,,2:35,D,"40,264",.61,-,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509010.shtml,CHC,,ATL,W-wo,7,6,10,79-59,2,5.5,Kittredge,Brebbia,,3:10,D,"39,673",.64,+,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509020.shtml,CHC,,ATL,W,4,3,,80-59,2,5.0,Imanaga,Wentz,Palencia,2:33,N,"32,618",.72,++,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509030.shtml,CHC,,ATL,L,1,5,,80-60,2,6.0,Elder,Brown,,2:25,N,"31,933",.77,-,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509050.shtml,CHC,,WSN,W,11,5,,81-60,2,5.5,Assad,Irvin,,2:40,D,"32,320",.65,+,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509060.shtml,CHC,,WSN,L,1,2,,81-61,2,6.5,Lord,Boyd,Henry,2:23,D,"38,011",.60,-,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509070.shtml,CHC,,WSN,L,3,6,,81-62,2,7.5,Thompson,Palencia,Ferrer,2:30,D,"33,343",.44,--,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509080.shtml,CHC,@,ATL,L,1,4,,81-63,2,7.5,Elder,Imanaga,Iglesias,2:13,N,"33,430",.36,---,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509090.shtml,CHC,@,ATL,W,6,1,,82-63,2,6.5,Horton,Strider,,2:24,N,"32,721",.39,+,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509100.shtml,CHC,@,ATL,W,3,2,,83-63,2,5.5,Rogers,Sale,Kittredge,2:43,N,"35,757",.40,++,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509120.shtml,CHC,,TBR,W,6,4,,84-63,2,5.5,Boyd,Baz,Kittredge,2:47,D,"38,794",.50,+++,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509130.shtml,CHC,,TBR,L,4,5,,84-64,2,6.5,Baker,Keller,Fairbanks,2:37,D,"39,712",.38,-,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509140.shtml,CHC,,TBR,W,4,3,,85-64,2,5.5,Assad,Uceta,Kittredge,2:38,D,"37,186",.29,+,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509150.shtml,CHC,@,PIT,W,4,0,,86-64,2,5.0,Taillon,Ashcraft,Keller,2:46,N,"15,706",.42,++,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509160.shtml,CHC,@,PIT,W,4,1,,87-64,2,5.0,Horton,Skenes,Keller,2:40,N,"14,714",.43,+++,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509170.shtml,CHC,@,PIT,W,8,4,,88-64,2,5.0,Civale,Ramírez,,3:17,D,"13,488",.38,++++,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509180.shtml,CHC,@,CIN,L,0,1,,88-65,2,6.0,Greene,Rea,,1:59,N,"18,532",.32,-,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509190.shtml,CHC,@,CIN,L,4,7,,88-66,2,6.0,Phillips,Hodge,Pagán,2:39,N,"25,584",.14,--,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509200.shtml,CHC,@,CIN,L,3,6,,88-67,2,7.0,Littell,Pomeranz,Pagán,2:28,N,"31,756",.10,---,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202508300.shtml,CHW,,NYY,L,3,5,11,48-88,5,30.5,Bednar,Alexander,Doval,3:13,N,"26,624",.00,-----,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202508310.shtml,CHW,,NYY,W,3,2,,49-88,5,30.5,Booser,Hill,Vasil,2:30,D,"27,810",.00,+,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509010.shtml,CHW,@,MIN,W,6,5,,50-88,5,29.5,Alexander,Topa,Leasure,2:41,D,"15,892",.00,++,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509020.shtml,CHW,@,MIN,W,12,3,,51-88,5,28.5,Martin,Hatch,,2:49,N,"11,721",.00,+++,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509030.shtml,CHW,@,MIN,W,4,3,,52-88,5,28.5,Taylor,Topa,Leasure,2:46,N,"11,904",.00,++++,,2025,0
+141,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509040.shtml,CHW,@,MIN,W,11,8,,53-88,5,28.0,González,Adams,,3:26,N,"13,188",.00,+++++,,2025,0
+142,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509050.shtml,CHW,@,DET,W,7,5,,54-88,5,27.0,Smith,Horn,Leasure,3:03,N,"35,216",.00,++++++,,2025,0
+143,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509060.shtml,CHW,@,DET,L,0,6,,54-89,5,28.0,Skubal,Pérez,,2:16,N,"32,115",.00,-,,2025,0
+144,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509070.shtml,CHW,@,DET,W,6,4,,55-89,5,27.0,Taylor,Kahnle,Vasil,3:07,D,"29,292",.00,+,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509090.shtml,CHW,,TBR,L,4,5,,55-90,5,28.0,Kelly,Alexander,Fairbanks,2:34,N,"12,487",.00,-,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509100.shtml,CHW,,TBR,W,6,5,,56-90,5,28.0,Leasure,Montgomery,Gilbert,2:47,N,"12,099",.00,+,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509110.shtml,CHW,,TBR,W,5,1,,57-90,5,27.0,Smith,Seymour,,2:51,D,"11,850",.00,++,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509120.shtml,CHW,@,CLE,L,0,4,,57-91,5,27.0,Bibee,Pérez,,2:08,N,"21,779",.00,-,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509130.shtml,CHW,@,CLE,L,1,3,,57-92,5,27.0,Messick,Martin,Smith,2:10,N,"28,463",.00,--,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509140.shtml,CHW,@,CLE,L,2,3,,57-93,5,28.0,Festa,Eisert,Smith,2:31,D,"22,320",.00,---,,2025,0
+151,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509150.shtml,CHW,,BAL,L,1,4,,57-94,5,28.5,Bradish,Wilson,Enns,2:50,N,"11,020",.00,----,,2025,0
+152,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509160.shtml,CHW,,BAL,L,7,8,,57-95,5,28.5,Kremer,Smith,Akin,3:05,N,"12,428",.00,-----,,2025,0
+153,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509170.shtml,CHW,,BAL,L,1,3,,57-96,5,28.5,Wells,Pérez,Akin,2:42,D,"10,919",.00,------,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509190.shtml,CHW,,SDP,W,4,3,,58-96,5,27.0,Martin,Cease,Taylor,2:11,N,"30,505",.00,+,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509200.shtml,CHW,,SDP,L,3,7,,58-97,5,27.0,Morejón,Gómez,,2:54,N,"27,345",.00,-,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202508300.shtml,CIN,,STL,L,2,4,,68-68,3,16.5,McGreevy,Abbott,Leahy,2:46,N,"32,076",.55,-----,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202508310.shtml,CIN,,STL,W,7,4,,69-68,3,15.5,Singer,Pallante,Pagán,2:46,D,"27,238",.52,+,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509010.shtml,CIN,,TOR,W-wo,5,4,,70-68,3,14.5,Zulueta,Little,,2:54,D,"21,773",.62,++,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509020.shtml,CIN,,TOR,L,9,12,,70-69,3,15.0,Varland,Barlow,Hoffman,3:06,N,"20,769",.66,-,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509030.shtml,CIN,,TOR,L,9,13,,70-70,3,16.0,Bieber,Martinez,,3:10,N,"17,134",.52,--,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509050.shtml,CIN,,NYM,L,4,5,,70-71,3,16.5,Peterson,Abbott,Díaz,3:04,N,"21,231",.56,---,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509060.shtml,CIN,,NYM,W,6,3,,71-71,3,16.5,Singer,Tong,,2:33,N,"26,782",.36,+,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509070.shtml,CIN,,NYM,W,3,2,,72-71,3,16.5,Greene,Sproat,Santillan,2:10,D,"25,662",.54,++,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509080.shtml,CIN,@,SDP,L-wo,3,4,10,72-72,3,16.5,Peralta,Martinez,,2:47,N,"40,248",.63,-,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509090.shtml,CIN,@,SDP,W,4,2,,73-72,3,15.5,Phillips,Suarez,Pagán,2:28,N,"41,364",.50,+,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509100.shtml,CIN,@,SDP,W,2,1,,74-72,3,14.5,Abbott,Morejón,Santillan,2:31,N,"40,045",.74,++,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509120.shtml,CIN,@,ATH,L,0,3,,74-73,3,15.5,Ferguson,Singer,Newcomb,2:30,N,"8,333",1.04,-,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509130.shtml,CIN,@,ATH,L,5,11,,74-74,3,16.5,Basso,Martinez,,2:51,N,"8,758",.96,--,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509140.shtml,CIN,@,ATH,L,4,7,,74-75,3,16.5,Morales,Lodolo,Kelly,2:24,D,"8,778",.96,---,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509150.shtml,CIN,@,STL,W,11,6,,75-75,3,16.0,Phillips,Fernandez,,2:53,N,"18,095",.84,+,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509160.shtml,CIN,@,STL,L,0,3,,75-76,3,17.0,McGreevy,Abbott,O'Brien,2:15,N,"21,848",1.08,-,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509170.shtml,CIN,@,STL,W,6,2,,76-76,3,17.0,Singer,Pallante,,2:48,D,"23,462",.76,+,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509180.shtml,CIN,,CHC,W,1,0,,77-76,3,17.0,Greene,Rea,,1:59,N,"18,532",1.15,++,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509190.shtml,CIN,,CHC,W,7,4,,78-76,3,16.0,Phillips,Hodge,Pagán,2:39,N,"25,584",1.33,+++,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509200.shtml,CIN,,CHC,W,6,3,,79-76,3,16.0,Littell,Pomeranz,Pagán,2:28,N,"31,756",1.43,++++,,2025,0
+134,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202508300.shtml,CLE,,SEA,W,4,3,,68-66,3,9.5,Williams,Gilbert,Smith,2:29,N,"33,203",.81,++++,,2025,0
+135,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202508310.shtml,CLE,,SEA,L,2,4,,68-67,3,10.5,Miller,Bibee,Muñoz,2:23,D,"34,136",.93,-,,2025,0
+136,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509010.shtml,CLE,@,BOS,L,4,6,,68-68,3,10.5,Bello,Sabrowski,Chapman,2:54,D,"36,021",.60,--,,2025,0
+137,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509020.shtml,CLE,@,BOS,L,7,11,,68-69,3,10.5,Slaten,Gaddis,,2:26,N,"34,902",.44,---,,2025,0
+138,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509030.shtml,CLE,@,BOS,W,8,1,,69-69,3,10.5,Cantillo,Bernardino,,2:52,N,"36,658",.38,+,,2025,0
+139,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509040.shtml,CLE,@,TBR,L,2,4,,69-70,3,11.0,Pepiot,Allen,,2:31,N,"8,306",.58,-,,2025,0
+140,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509050.shtml,CLE,@,TBR,W,7,1,,70-70,3,10.0,Williams,Seymour,,2:35,N,"8,836",.44,+,,2025,0
+141,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509060.shtml,CLE,@,TBR,W,3,2,,71-70,3,10.0,Gaddis,Fairbanks,Smith,2:47,N,"10,046",.59,++,,2025,0
+142,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509070.shtml,CLE,@,TBR,W,2,1,,72-70,3,9.0,Messick,Cleavinger,Smith,2:38,D,"8,155",.70,+++,,2025,0
+143,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509080.shtml,CLE,,KCR,W,10,2,,73-70,2,8.5,Cecconi,Bergert,,2:38,N,"15,875",.90,++++,,2025,0
+144,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509090.shtml,CLE,,KCR,W,2,0,,74-70,2,8.5,Cantillo,Cameron,Smith,1:58,N,"15,458",.94,+++++,,2025,0
+145,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509100.shtml,CLE,,KCR,L,3,4,,74-71,2,9.5,Avila,Herrin,Estévez,2:34,N,"16,816",1.03,-,,2025,0
+146,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509110.shtml,CLE,,KCR,W,3,2,,75-71,2,8.5,Festa,Schreiber,Smith,2:31,N,"15,962",.67,+,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509120.shtml,CLE,,CHW,W,4,0,,76-71,2,7.5,Bibee,Pérez,,2:08,N,"21,779",.80,++,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509130.shtml,CLE,,CHW,W,3,1,,77-71,2,6.5,Messick,Martin,Smith,2:10,N,"28,463",.89,+++,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509140.shtml,CLE,,CHW,W,3,2,,78-71,2,6.5,Festa,Eisert,Smith,2:31,D,"22,320",.92,++++,,2025,0
+150,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509160.shtml,CLE,@,DET,W,7,5,10,79-71,2,5.5,Smith,Vest,,3:10,N,"31,639",1.32,+++++,,2025,0
+151,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509170.shtml,CLE,@,DET,W,4,0,,80-71,2,4.5,Williams,Flaherty,,3:15,N,"34,415",1.66,++++++,,2025,0
+152,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509180.shtml,CLE,@,DET,W,3,1,,81-71,2,3.5,Bibee,Melton,Gaddis,2:40,D,"34,267",2.18,+++++++,,2025,0
+153,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509190.shtml,CLE,@,MIN,W,6,2,,82-71,2,2.5,Junis,Sands,,2:36,N,"20,159",2.22,++++++++,,2025,0
+154,"Saturday, Sep 20 (1)",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509201.shtml,CLE,@,MIN,W,6,0,,83-71,2,1.0,Cecconi,Ryan,,2:08,D,"22,160",2.68,+++++++++,,2025,0
+155,"Saturday, Sep 20 (2)",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509202.shtml,CLE,@,MIN,W,8,0,,84-71,2,1.0,Allen,Ober,,2:12,N,"23,242",2.63,++++++++++,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/COL/COL202508300.shtml,COL,,CHC,L,3,4,,38-98,5,39.0,Assad,Brown,Palencia,2:35,N,"47,394",.00,----,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/COL/COL202508310.shtml,COL,,CHC,W-wo,6,5,,39-98,5,39.0,Mejia,Palencia,,2:35,D,"40,264",.00,+,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509010.shtml,COL,,SFG,L,2,8,,39-99,5,39.5,Teng,Dollander,,2:45,D,"28,805",.00,-,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509020.shtml,COL,,SFG,L,4,7,,39-100,5,39.5,Webb,Freeland,Walker,2:51,N,"18,934",.00,--,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509030.shtml,COL,,SFG,L,8,10,,39-101,5,39.5,Peguero,Peralta,Walker,2:50,N,"19,802",.00,---,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509050.shtml,COL,,SDP,W,3,0,,40-101,5,38.0,Freeland,Pivetta,Vodnik,2:15,N,"30,073",.00,+,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509060.shtml,COL,,SDP,L,8,10,,40-102,5,38.0,Vásquez,Brown,Suarez,3:09,N,"43,461",.00,-,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509070.shtml,COL,,SDP,L,1,8,,40-103,5,39.0,Cease,Gordon,,3:04,D,"27,555",.00,--,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509080.shtml,COL,@,LAD,L,1,3,,40-104,5,40.0,Glasnow,Chivilli,Scott,2:28,N,"48,433",.00,---,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509090.shtml,COL,@,LAD,L,2,7,,40-105,5,41.0,Sheehan,Márquez,,2:12,N,"44,126",.00,----,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509100.shtml,COL,@,LAD,L,0,9,,40-106,5,42.0,Snell,Freeland,,2:43,N,"50,805",.00,-----,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509110.shtml,COL,@,SDP,L,0,2,,40-107,5,42.5,Vásquez,Brown,Suarez,2:16,N,"38,844",.00,------,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509120.shtml,COL,@,SDP,W,4,2,,41-107,5,41.5,Gordon,Sears,Vodnik,2:27,N,"40,014",.00,+,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509130.shtml,COL,@,SDP,L,3,11,,41-108,5,42.5,Cease,Blalock,,2:43,N,"41,854",.00,-,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509140.shtml,COL,@,SDP,L,6,9,,41-109,5,43.5,Darvish,Márquez,Suarez,2:45,D,"40,693",.00,--,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509160.shtml,COL,,MIA,L,5,6,,41-110,5,43.0,Pérez,Freeland,Henriquez,2:21,N,"22,764",.00,---,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509170.shtml,COL,,MIA,L,4,8,,41-111,5,44.0,Bachar,Hill,,2:52,N,"21,862",.00,----,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509180.shtml,COL,,MIA,L,7,9,,41-112,5,45.0,Alcantara,Gordon,Faucher,2:32,D,"21,760",.00,-----,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509190.shtml,COL,,LAA,W,7,6,,42-112,5,45.0,Blalock,Farris,Vodnik,2:32,N,"47,587",.00,+,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509200.shtml,COL,,LAA,L,0,3,,42-113,5,46.0,Hendricks,Márquez,García,2:12,N,"36,407",.00,-,,2025,0
+137,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202508300.shtml,DET,@,KCR,L,1,3,,79-58,1,up 8.5,Erceg,Holton,Estévez,2:35,N,"26,237",.88,-,,2025,0
+138,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202508310.shtml,DET,@,KCR,W,5,0,,80-58,1,up 9.5,Skubal,Wacha,,2:25,D,"23,689",.92,+,,2025,0
+139,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509010.shtml,DET,,NYM,L,8,10,,80-59,1,up 9.0,Stanek,Sommers,Díaz,3:07,D,"38,912",.74,-,,2025,0
+140,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509020.shtml,DET,,NYM,L,5,12,,80-60,1,up 9.0,McLean,Gipson-Long,,2:43,N,"24,733",.91,--,,2025,0
+141,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509030.shtml,DET,,NYM,W,6,2,,81-60,1,up10.0,Mize,Holmes,,2:42,D,"21,775",.88,+,,2025,0
+142,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509050.shtml,DET,,CHW,L,5,7,,81-61,1,up 8.5,Smith,Horn,Leasure,3:03,N,"35,216",.70,-,,2025,0
+143,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509060.shtml,DET,,CHW,W,6,0,,82-61,1,up 8.5,Skubal,Pérez,,2:16,N,"32,115",.71,+,,2025,0
+144,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509070.shtml,DET,,CHW,L,4,6,,82-62,1,up 8.5,Taylor,Kahnle,Vasil,3:07,D,"29,292",.69,-,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509090.shtml,DET,@,NYY,W,12,2,,83-62,1,up 8.5,Mize,Cruz,Paddack,2:47,N,"35,653",.81,+,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509100.shtml,DET,@,NYY,W,11,1,,84-62,1,up 9.5,Flaherty,Rodón,,3:05,N,"36,727",.62,++,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509110.shtml,DET,@,NYY,L,3,9,,84-63,1,up 8.5,Schlittler,Holton,Yarbrough,3:04,N,"40,608",.62,-,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509120.shtml,DET,@,MIA,L,2,8,,84-64,1,up 7.5,Alcantara,Skubal,,2:12,N,"16,926",.73,--,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509130.shtml,DET,@,MIA,L-wo,4,6,11,84-65,1,up 6.5,Simpson,Montero,,3:08,D,"21,014",1.03,---,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509140.shtml,DET,@,MIA,W,2,0,,85-65,1,up 6.5,Montero,Mazur,Vest,2:29,D,"24,638",1.54,+,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509160.shtml,DET,,CLE,L,5,7,10,85-66,1,up 5.5,Smith,Vest,,3:10,N,"31,639",1.46,-,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509170.shtml,DET,,CLE,L,0,4,,85-67,1,up 4.5,Williams,Flaherty,,3:15,N,"34,415",2.04,--,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509180.shtml,DET,,CLE,L,1,3,,85-68,1,up 3.5,Bibee,Melton,Gaddis,2:40,D,"34,267",2.60,---,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509190.shtml,DET,,ATL,L,1,10,,85-69,1,up 2.5,Elder,Morton,,2:21,N,"33,554",2.77,----,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509200.shtml,DET,,ATL,L,5,6,,85-70,1,up 1.0,Dodd,Vest,Iglesias,2:52,D,"38,079",2.99,-----,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202508300.shtml,HOU,,LAA,L,1,4,,75-61,1,up 3.0,Fermin,Abreu,Jansen,2:44,N,"38,559",1.57,-,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202508310.shtml,HOU,,LAA,L,0,3,,75-62,1,up 2.0,Soriano,Brown,Jansen,2:41,D,"36,811",1.69,--,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509010.shtml,HOU,,LAA,W,8,3,,76-62,1,up 3.0,Garcia,Kikuchi,,2:53,D,"33,247",1.60,+,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509020.shtml,HOU,,NYY,L,1,7,,76-63,1,up 3.0,Fried,Valdez,,2:50,N,"33,133",1.85,-,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509030.shtml,HOU,,NYY,W,8,7,,77-63,1,up 4.0,King,Williams,,3:05,N,"30,693",1.67,+,,2025,0
+141,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509040.shtml,HOU,,NYY,L,4,8,,77-64,1,up 3.5,Rodón,Javier,,3:24,N,"35,018",1.60,-,,2025,0
+142,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509050.shtml,HOU,@,TEX,L-wo,3,4,12,77-65,1,up 3.5,Garcia,McCullers,,3:37,N,"31,662",1.71,--,,2025,0
+143,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509060.shtml,HOU,@,TEX,W,11,0,,78-65,1,up 3.5,Brown,deGrom,,3:17,N,"38,332",1.82,+,,2025,0
+144,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509070.shtml,HOU,@,TEX,L,2,4,,78-66,1,up 2.5,Maton,Valdez,Armstrong,2:23,D,"35,449",1.72,-,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509090.shtml,HOU,@,TOR,L-wo,3,4,10,78-67,1,up 1.0,Hoffman,Kimbrel,,3:14,N,"40,252",1.85,--,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509100.shtml,HOU,@,TOR,W,3,2,,79-67,1,up 1.0,De Los Santos,Hoffman,Abreu,2:41,N,"36,760",1.75,+,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509110.shtml,HOU,@,TOR,L,0,6,,79-68,1,Tied,Gausman,Javier,,2:07,D,"41,224",1.90,-,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509120.shtml,HOU,@,ATL,W,11,3,,80-68,1,Tied,Blubaugh,Waldrep,Gordon,2:31,N,"34,030",1.73,+,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509130.shtml,HOU,@,ATL,W,6,2,,81-68,1,Tied,Brown,Elder,,2:46,N,"36,826",1.88,++,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509140.shtml,HOU,@,ATL,L,3,8,,81-69,2,1.0,Stratton,Valdez,,2:58,D,"32,807",2.14,-,,2025,0
+151,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509150.shtml,HOU,,TEX,W,6,3,,82-69,2,0.5,Okert,Leiter,Abreu,2:25,N,"30,484",2.55,+,,2025,0
+152,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509160.shtml,HOU,,TEX,W,6,5,,83-69,2,0.5,Gordon,Kelly,Abreu,3:03,N,"35,026",2.32,++,,2025,0
+153,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509170.shtml,HOU,,TEX,W,5,2,,84-69,1,up 0.5,Javier,deGrom,King,2:32,N,"33,084",1.97,+++,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509190.shtml,HOU,,SEA,L,0,4,,84-70,2,1.0,Woo,Brown,,2:42,N,"41,471",3.16,-,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509200.shtml,HOU,,SEA,L,4,6,,84-71,2,2.0,Kirby,Valdez,Muñoz,3:01,N,"42,065",3.64,--,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202508300.shtml,KCR,,DET,W,3,1,,70-66,2,8.5,Erceg,Holton,Estévez,2:35,N,"26,237",.85,+,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202508310.shtml,KCR,,DET,L,0,5,,70-67,2,9.5,Skubal,Wacha,,2:25,D,"23,689",1.02,-,,2025,0
+138,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509020.shtml,KCR,,LAA,L,1,5,,70-68,2,9.0,Farris,Lorenzen,,2:27,N,"13,685",.84,--,,2025,0
+139,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509030.shtml,KCR,,LAA,L,3,4,,70-69,2,10.0,Stephenson,Erceg,Detmers,2:41,N,"15,924",.82,---,,2025,0
+140,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509040.shtml,KCR,,LAA,W,4,3,,71-69,2,9.5,Erceg,Zeferjahn,Estévez,2:13,N,"17,352",.67,+,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509050.shtml,KCR,,MIN,W,2,1,,72-69,2,8.5,Wacha,López,Estévez,2:23,N,"16,255",.79,++,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509060.shtml,KCR,,MIN,W,11,2,,73-69,2,8.5,Kolek,Ryan,,2:42,N,"21,771",.97,+++,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509070.shtml,KCR,,MIN,L,1,5,,73-70,2,8.5,Ober,Lorenzen,Cabrera,2:56,D,"26,505",1.06,-,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509080.shtml,KCR,@,CLE,L,2,10,,73-71,3,9.0,Cecconi,Bergert,,2:38,N,"15,875",1.05,--,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509090.shtml,KCR,@,CLE,L,0,2,,73-72,3,10.0,Cantillo,Cameron,Smith,1:58,N,"15,458",.74,---,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509100.shtml,KCR,@,CLE,W,4,3,,74-72,3,10.0,Avila,Herrin,Estévez,2:34,N,"16,816",.52,+,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202509110.shtml,KCR,@,CLE,L,2,3,,74-73,3,10.0,Festa,Schreiber,Smith,2:31,N,"15,962",.58,-,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509120.shtml,KCR,@,PHI,L,2,8,,74-74,3,10.0,Buehler,Lorenzen,,2:45,N,"41,099",.31,--,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509130.shtml,KCR,@,PHI,L,6,8,,74-75,3,10.0,Walker,Zerpa,Duran,2:42,N,"43,326",.13,---,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509140.shtml,KCR,@,PHI,W,10,3,,75-75,3,10.0,Cameron,Nola,,2:43,D,"42,513",.03,+,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509160.shtml,KCR,,SEA,L,5,12,,75-76,3,10.0,Gilbert,Wacha,,2:55,N,"20,017",.05,-,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509170.shtml,KCR,,SEA,W,7,5,,76-76,3,9.0,Erceg,Brash,Estévez,2:46,N,"19,127",.01,+,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509180.shtml,KCR,,SEA,L,0,2,,76-77,3,9.0,Castillo,Kolek,Muñoz,2:17,D,"18,137",.01,-,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509190.shtml,KCR,,TOR,W,20,1,,77-77,3,8.0,Lorenzen,Scherzer,,2:50,N,"26,459",.00,+,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509200.shtml,KCR,,TOR,W,2,1,,78-77,3,7.0,Cameron,Bieber,Estévez,2:21,N,"25,774",.00,++,,2025,0
+135,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202508300.shtml,LAA,@,HOU,W,4,1,,63-72,4,11.5,Fermin,Abreu,Jansen,2:44,N,"38,559",.01,+,,2025,0
+136,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202508310.shtml,LAA,@,HOU,W,3,0,,64-72,4,10.5,Soriano,Brown,Jansen,2:41,D,"36,811",.02,++,,2025,0
+137,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509010.shtml,LAA,@,HOU,L,3,8,,64-73,4,11.5,Garcia,Kikuchi,,2:53,D,"33,247",.03,-,,2025,0
+138,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509020.shtml,LAA,@,KCR,W,5,1,,65-73,4,10.5,Farris,Lorenzen,,2:27,N,"13,685",.02,+,,2025,0
+139,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509030.shtml,LAA,@,KCR,W,4,3,,66-73,4,10.5,Stephenson,Erceg,Detmers,2:41,N,"15,924",.03,++,,2025,0
+140,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509040.shtml,LAA,@,KCR,L,3,4,,66-74,4,10.5,Erceg,Zeferjahn,Estévez,2:13,N,"17,352",.05,-,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509050.shtml,LAA,,ATH,L,4,10,,66-75,4,10.5,Barnett,Soriano,,2:57,N,"30,779",.03,--,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509060.shtml,LAA,,ATH,L,4,17,,66-76,4,11.5,Ginn,Kikuchi,,2:59,N,"35,816",.01,---,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509070.shtml,LAA,,ATH,W,4,3,,67-76,4,10.5,Detmers,Bido,Jansen,2:30,D,"33,053",.01,+,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509080.shtml,LAA,,MIN,L,3,12,,67-77,4,11.0,Woods Richardson,Dana,,3:10,N,"28,824",.01,-,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509090.shtml,LAA,,MIN,W,12,2,,68-77,4,10.0,Hendricks,Matthews,,2:43,N,"29,694",.00,+,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509100.shtml,LAA,,MIN,W,4,3,,69-77,4,10.0,Stephenson,Sands,Jansen,2:29,D,"20,746",.00,++,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509110.shtml,LAA,@,SEA,L-wo,6,7,12,69-78,4,10.0,Castillo,Peralta,,4:00,N,"19,129",.00,-,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509120.shtml,LAA,@,SEA,L,1,2,,69-79,4,11.0,Vargas,Brogdon,Muñoz,2:34,N,"36,143",.00,--,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509130.shtml,LAA,@,SEA,L,3,5,,69-80,4,12.0,Woo,Farris,Brash,2:27,N,"38,962",.00,---,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509140.shtml,LAA,@,SEA,L,2,11,,69-81,5,13.0,Kirby,Hendricks,,2:36,D,"42,513",.00,----,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509160.shtml,LAA,@,MIL,L,2,9,,69-82,5,14.0,Peralta,Dana,,2:39,N,"28,566",.00,-----,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509170.shtml,LAA,@,MIL,L,2,9,,69-83,5,14.5,Woodruff,Soriano,,2:21,N,"28,493",.00,------,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509180.shtml,LAA,@,MIL,L,2,5,,69-84,5,15.0,Ashby,García,Koenig,2:35,N,"34,261",.00,-------,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509190.shtml,LAA,@,COL,L,6,7,,69-85,5,16.0,Blalock,Farris,Vodnik,2:32,N,"47,587",.00,--------,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509200.shtml,LAA,@,COL,W,3,0,,70-85,5,16.0,Hendricks,Márquez,García,2:12,N,"36,407",.00,+,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202508300.shtml,LAD,,ARI,L,1,6,,77-59,1,up 1.0,Rodríguez,Glasnow,,2:38,N,"47,632",1.43,--,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202508310.shtml,LAD,,ARI,W-wo,5,4,,78-59,1,up 2.0,Treinen,Curtiss,,2:27,D,"51,803",1.33,+,,2025,0
+138,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509020.shtml,LAD,@,PIT,L,7,9,,78-60,1,up 2.5,Chandler,Henriquez,Santana,2:51,N,"14,330",1.35,-,,2025,0
+139,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509030.shtml,LAD,@,PIT,L,0,3,,78-61,1,up 2.5,Burrows,Sheehan,Santana,2:28,N,"16,473",1.27,--,,2025,0
+140,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509040.shtml,LAD,@,PIT,L,3,5,,78-62,1,up 2.0,Skenes,Snell,Holderman,2:33,N,"20,563",1.39,---,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509050.shtml,LAD,@,BAL,L-wo,1,2,,78-63,1,up 2.0,Cano,Scott,,3:01,N,"25,481",1.24,----,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509060.shtml,LAD,@,BAL,L-wo,3,4,,78-64,1,up 1.0,Suárez,Treinen,,2:45,N,"42,612",1.14,-----,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509070.shtml,LAD,@,BAL,W,5,2,,79-64,1,up 1.0,Kershaw,Sugano,Dreyer,2:52,D,"27,874",1.04,+,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509080.shtml,LAD,,COL,W,3,1,,80-64,1,up 1.0,Glasnow,Chivilli,Scott,2:28,N,"48,433",1.11,++,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509090.shtml,LAD,,COL,W,7,2,,81-64,1,up 2.0,Sheehan,Márquez,,2:12,N,"44,126",1.05,+++,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509100.shtml,LAD,,COL,W,9,0,,82-64,1,up 3.0,Snell,Freeland,,2:43,N,"50,805",.96,++++,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509120.shtml,LAD,@,SFG,L-wo,1,5,10,82-65,1,up 2.5,Peguero,Treinen,,2:38,N,"40,509",.78,-,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509130.shtml,LAD,@,SFG,W,13,7,,83-65,1,up 2.5,Henriquez,Webb,,3:15,N,"40,474",.58,+,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509140.shtml,LAD,@,SFG,W,10,2,,84-65,1,up 2.5,Glasnow,Ray,,3:09,D,"40,112",.53,++,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509150.shtml,LAD,,PHI,L,5,6,10,84-66,1,up 2.0,Duran,Treinen,Robertson,2:56,N,"43,602",1.04,-,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509160.shtml,LAD,,PHI,L,6,9,,84-67,1,up 2.0,Banks,Treinen,Duran,2:45,N,"44,063",.40,--,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509170.shtml,LAD,,PHI,W,5,0,,85-67,1,up 2.0,Snell,Luzardo,,2:19,N,"50,859",.28,+,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509180.shtml,LAD,,SFG,W,2,1,,86-67,1,up 3.0,Dreyer,Webb,Vesia,2:39,N,"41,225",.30,++,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509190.shtml,LAD,,SFG,W,6,3,,87-67,1,up 4.0,Henriquez,Ray,Scott,2:47,N,"53,037",.22,+++,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509200.shtml,LAD,,SFG,W,7,5,,88-67,1,up 4.0,Glasnow,Peguero,Dreyer,2:59,N,"53,251",.11,++++,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202508300.shtml,MIA,@,NYM,W,11,8,,64-72,3,15.0,Faucher,Rogers,Phillips,3:14,D,"42,726",.03,+,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202508310.shtml,MIA,@,NYM,W,5,1,,65-72,3,14.0,Alcantara,Senga,,2:40,D,"43,302",.06,++,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509010.shtml,MIA,@,WSN,L,0,2,,65-73,3,15.0,Alvarez,Bachar,Ferrer,2:15,D,"13,835",.06,-,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509020.shtml,MIA,@,WSN,L,2,5,,65-74,3,15.5,Cavalli,Mazur,Ferrer,2:27,N,"12,372",.03,--,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509030.shtml,MIA,@,WSN,L,5,10,,65-75,3,15.5,Rutledge,Pérez,,2:53,D,"11,190",.01,---,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509050.shtml,MIA,,PHI,L,3,9,,65-76,3,17.0,Sánchez,Bellozo,,2:42,N,"15,118",.01,----,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509060.shtml,MIA,,PHI,L,2,4,,65-77,3,18.0,Luzardo,Alcantara,Duran,2:27,D,"23,877",.00,-----,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509070.shtml,MIA,,PHI,W,5,4,,66-77,3,17.0,Henriquez,Walker,Bachar,2:56,D,"30,223",.00,+,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509080.shtml,MIA,,WSN,L,7,15,,66-78,3,18.0,Cavalli,Junk,,3:02,N,"7,992",.00,-,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509090.shtml,MIA,,WSN,L,5,7,,66-79,3,19.0,Parker,Mazur,Ferrer,3:08,N,"8,634",.00,--,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509100.shtml,MIA,,WSN,W,8,3,,67-79,3,19.0,Bachar,Irvin,,2:57,N,"9,038",.00,+,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509110.shtml,MIA,,WSN,W,5,0,,68-79,3,19.0,Weathers,Gore,,2:29,N,"10,110",.00,++,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509120.shtml,MIA,,DET,W,8,2,,69-79,3,19.0,Alcantara,Skubal,,2:12,N,"16,926",.00,+++,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509130.shtml,MIA,,DET,W-wo,6,4,11,70-79,3,19.0,Simpson,Montero,,3:08,D,"21,014",.00,++++,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509140.shtml,MIA,,DET,L,0,2,,70-80,3,19.0,Montero,Mazur,Vest,2:29,D,"24,638",.01,-,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509160.shtml,MIA,@,COL,W,6,5,,71-80,3,19.5,Pérez,Freeland,Henriquez,2:21,N,"22,764",.00,+,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509170.shtml,MIA,@,COL,W,8,4,,72-80,3,18.5,Bachar,Hill,,2:52,N,"21,862",.01,++,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509180.shtml,MIA,@,COL,W,9,7,,73-80,3,18.0,Alcantara,Gordon,Faucher,2:32,D,"21,760",.01,+++,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509190.shtml,MIA,@,TEX,W,6,4,12,74-80,3,18.0,Soriano,Corbin,,3:41,N,"26,374",.02,++++,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509200.shtml,MIA,@,TEX,W,4,3,,75-80,3,17.0,Gibson,Leiter,Faucher,2:52,N,"36,054",.02,+++++,,2025,0
+137,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202508300.shtml,MIL,@,TOR,W,4,1,,85-52,1,up 6.5,Ashby,Hoffman,Uribe,2:29,D,"41,424",.43,++,,2025,0
+138,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202508310.shtml,MIL,@,TOR,L,4,8,,85-53,1,up 6.5,Nance,Woodruff,,2:45,D,"41,488",.39,-,,2025,0
+139,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509010.shtml,MIL,,PHI,L,8,10,,85-54,1,up 5.5,Robertson,Uribe,Duran,3:25,D,"42,153",.44,--,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509030.shtml,MIL,,PHI,W,6,3,,86-54,1,up 6.0,Quintana,Nola,Koenig,2:36,N,"28,528",.71,+,,2025,0
+141,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509040.shtml,MIL,,PHI,L,0,2,,86-55,1,up 5.5,Suárez,Myers,Duran,2:36,D,"26,583",.43,-,,2025,0
+142,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509050.shtml,MIL,@,PIT,W,5,2,,87-55,1,up 5.5,Priester,Mlodzinski,Uribe,2:43,N,"14,122",.51,+,,2025,0
+143,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509060.shtml,MIL,@,PIT,W,4,1,,88-55,1,up 6.5,Woodruff,Keller,Ashby,2:30,N,"17,975",.45,++,,2025,0
+144,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509070.shtml,MIL,@,PIT,W,10,2,,89-55,1,up 7.5,Misiorowski,Chandler,,2:49,D,"12,443",.25,+++,,2025,0
+145,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509080.shtml,MIL,@,TEX,L,0,5,,89-56,1,up 7.5,Latz,Quintana,,2:20,N,"20,791",.12,-,,2025,0
+146,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509090.shtml,MIL,@,TEX,L,4,5,,89-57,1,up 6.5,Milner,Ashby,Armstrong,2:43,N,"24,581",.10,--,,2025,0
+147,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509100.shtml,MIL,@,TEX,L,3,6,,89-58,1,up 5.5,Kelly,Peralta,Maton,2:46,D,"24,682",.18,---,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509120.shtml,MIL,,STL,W,8,2,,90-58,1,up 5.5,Priester,Pallante,,2:40,N,"40,525",.40,+,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509130.shtml,MIL,,STL,W-wo,9,8,10,91-58,1,up 6.5,Uribe,Leahy,,3:37,N,"41,807",.35,++,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509140.shtml,MIL,,STL,L,2,3,,91-59,1,up 5.5,Mikolas,Quintana,O'Brien,2:51,D,"42,269",.14,-,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509160.shtml,MIL,,LAA,W,9,2,,92-59,1,up 5.0,Peralta,Dana,,2:39,N,"28,566",.37,+,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509170.shtml,MIL,,LAA,W,9,2,,93-59,1,up 5.0,Woodruff,Soriano,,2:21,N,"28,493",.41,++,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509180.shtml,MIL,,LAA,W,5,2,,94-59,1,up 6.0,Ashby,García,Koenig,2:35,N,"34,261",.31,+++,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509190.shtml,MIL,@,STL,L,1,7,,94-60,1,up 6.0,Gray,Misiorowski,,2:47,N,"29,752",.10,-,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509200.shtml,MIL,@,STL,W,3,2,10,95-60,1,up 7.0,Koenig,Romero,,2:44,N,"36,212",.10,+,,2025,0
+135,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202508300.shtml,MIN,,SDP,L,3,12,,61-74,4,17.0,Morejón,Abel,,2:58,N,"23,971",.01,-,,2025,0
+136,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202508310.shtml,MIN,,SDP,W,7,2,,62-74,4,17.0,Ryan,Hart,,2:43,D,"26,956",.00,+,,2025,0
+137,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509010.shtml,MIN,,CHW,L,5,6,,62-75,4,17.0,Alexander,Topa,Leasure,2:41,D,"15,892",.00,-,,2025,0
+138,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509020.shtml,MIN,,CHW,L,3,12,,62-76,4,17.0,Martin,Hatch,,2:49,N,"11,721",.00,--,,2025,0
+139,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509030.shtml,MIN,,CHW,L,3,4,,62-77,4,18.0,Taylor,Topa,Leasure,2:46,N,"11,904",.00,---,,2025,0
+140,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509040.shtml,MIN,,CHW,L,8,11,,62-78,4,18.5,González,Adams,,3:26,N,"13,188",.00,----,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509050.shtml,MIN,@,KCR,L,1,2,,62-79,4,18.5,Wacha,López,Estévez,2:23,N,"16,255",.00,-----,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509060.shtml,MIN,@,KCR,L,2,11,,62-80,4,19.5,Kolek,Ryan,,2:42,N,"21,771",.00,------,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509070.shtml,MIN,@,KCR,W,5,1,,63-80,4,18.5,Ober,Lorenzen,Cabrera,2:56,D,"26,505",.00,+,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509080.shtml,MIN,@,LAA,W,12,3,,64-80,4,18.0,Woods Richardson,Dana,,3:10,N,"28,824",.00,++,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509090.shtml,MIN,@,LAA,L,2,12,,64-81,4,19.0,Hendricks,Matthews,,2:43,N,"29,694",.00,-,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509100.shtml,MIN,@,LAA,L,3,4,,64-82,4,20.0,Stephenson,Sands,Jansen,2:29,D,"20,746",.00,--,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509120.shtml,MIN,,ARI,W-wo,9,8,,65-82,4,18.5,Sands,Woodford,,2:56,N,"18,177",.00,+,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509130.shtml,MIN,,ARI,L,2,5,10,65-83,4,18.5,Curtiss,Sands,,3:15,N,"21,227",.00,-,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509140.shtml,MIN,,ARI,L,4,6,,65-84,4,19.5,Crismatt,Ober,Backhus,3:00,D,"18,376",.00,--,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509150.shtml,MIN,,NYY,W,7,0,,66-84,4,19.0,Woods Richardson,Rodón,,2:43,N,"22,001",.00,+,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509160.shtml,MIN,,NYY,L,9,10,,66-85,4,19.0,Leiter,Matthews,Bednar,2:59,N,"25,500",.00,-,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509170.shtml,MIN,,NYY,L,5,10,,66-86,4,19.0,Cruz,Bradley,,2:49,N,"20,206",.00,--,,2025,0
+153,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509190.shtml,MIN,,CLE,L,2,6,,66-87,4,18.5,Junis,Sands,,2:36,N,"20,159",.00,---,,2025,0
+154,"Saturday, Sep 20 (1)",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509201.shtml,MIN,,CLE,L,0,6,,66-88,4,19.0,Cecconi,Ryan,,2:08,D,"22,160",.00,----,,2025,0
+155,"Saturday, Sep 20 (2)",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509202.shtml,MIN,,CLE,L,0,8,,66-89,4,19.0,Allen,Ober,,2:12,N,"23,242",.00,-----,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202508300.shtml,NYM,,MIA,L,8,11,,73-63,2,6.0,Faucher,Rogers,Phillips,3:14,D,"42,726",1.12,-,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202508310.shtml,NYM,,MIA,L,1,5,,73-64,2,6.0,Alcantara,Senga,,2:40,D,"43,302",1.06,--,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509010.shtml,NYM,@,DET,W,10,8,,74-64,2,6.0,Stanek,Sommers,Díaz,3:07,D,"38,912",1.14,+,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509020.shtml,NYM,@,DET,W,12,5,,75-64,2,5.5,McLean,Gipson-Long,,2:43,N,"24,733",1.12,++,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/DET/DET202509030.shtml,NYM,@,DET,L,2,6,,75-65,2,5.5,Mize,Holmes,,2:42,D,"21,775",1.07,-,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509050.shtml,NYM,@,CIN,W,5,4,,76-65,2,6.0,Peterson,Abbott,Díaz,3:04,N,"21,231",1.33,+,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509060.shtml,NYM,@,CIN,L,3,6,,76-66,2,7.0,Singer,Tong,,2:33,N,"26,782",1.18,-,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509070.shtml,NYM,@,CIN,L,2,3,,76-67,2,7.0,Greene,Sproat,Santillan,2:10,D,"25,662",1.30,--,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509080.shtml,NYM,@,PHI,L,0,1,,76-68,2,8.0,Nola,McLean,Duran,2:34,N,"40,388",1.32,---,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509090.shtml,NYM,@,PHI,L,3,9,,76-69,2,9.0,Suárez,Manaea,,2:39,N,"41,609",1.24,----,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509100.shtml,NYM,@,PHI,L,3,11,,76-70,2,10.0,Sánchez,Holmes,,2:57,N,"38,090",1.32,-----,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509110.shtml,NYM,@,PHI,L,4,6,,76-71,2,11.0,Luzardo,Garrett,Duran,2:16,N,"40,098",1.38,------,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509120.shtml,NYM,,TEX,L,3,8,,76-72,2,12.0,deGrom,Tong,,2:36,N,"41,040",1.50,-------,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509130.shtml,NYM,,TEX,L,2,3,,76-73,2,13.0,Maton,Díaz,Armstrong,2:55,D,"41,752",1.51,--------,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509140.shtml,NYM,,TEX,W-wo,5,2,10,77-73,2,12.0,Stanek,Curvelo,,3:01,D,"40,024",1.51,+,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509160.shtml,NYM,,SDP,W,8,3,,78-73,2,12.5,Manaea,King,,2:40,N,"41,819",1.64,++,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509170.shtml,NYM,,SDP,L,4,7,,78-74,2,12.5,Morejón,Peterson,Suarez,3:09,N,"41,783",1.58,-,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509180.shtml,NYM,,SDP,W,6,1,,79-74,2,12.0,Tong,Vásquez,,2:46,D,"38,127",1.74,+,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509190.shtml,NYM,,WSN,W,12,6,,80-74,2,12.0,Raley,Alvarez,,2:51,N,"39,484",1.83,++,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509200.shtml,NYM,,WSN,L,3,5,11,80-75,2,12.0,Lao,Rogers,Poulin,3:18,D,"43,412",1.71,-,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202508300.shtml,NYY,@,CHW,W,5,3,11,76-60,2,2.0,Bednar,Alexander,Doval,3:13,N,"26,624",1.15,+++++++,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202508310.shtml,NYY,@,CHW,L,2,3,,76-61,2,3.0,Booser,Hill,Vasil,2:30,D,"27,810",1.34,-,,2025,0
+138,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509020.shtml,NYY,@,HOU,W,7,1,,77-61,2,2.5,Fried,Valdez,,2:50,N,"33,133",1.34,+,,2025,0
+139,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509030.shtml,NYY,@,HOU,L,7,8,,77-62,2,3.5,King,Williams,,3:05,N,"30,693",1.21,-,,2025,0
+140,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509040.shtml,NYY,@,HOU,W,8,4,,78-62,2,3.0,Rodón,Javier,,3:24,N,"35,018",1.05,+,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509050.shtml,NYY,,TOR,L,1,7,,78-63,2,4.0,Gausman,Schlittler,,2:51,N,"46,055",1.56,-,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509060.shtml,NYY,,TOR,W,3,1,,79-63,2,3.0,Gil,Bassitt,Bednar,2:49,D,"45,123",1.25,+,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509070.shtml,NYY,,TOR,W,4,3,,80-63,2,2.0,Fried,Scherzer,Bednar,2:35,D,"43,266",1.54,++,,2025,0
+144,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509090.shtml,NYY,,DET,L,2,12,,80-64,2,3.0,Mize,Cruz,Paddack,2:47,N,"35,653",1.26,-,,2025,0
+145,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509100.shtml,NYY,,DET,L,1,11,,80-65,2,3.0,Flaherty,Rodón,,3:05,N,"36,727",1.04,--,,2025,0
+146,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509110.shtml,NYY,,DET,W,9,3,,81-65,2,3.0,Schlittler,Holton,Yarbrough,3:04,N,"40,608",1.16,+,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509120.shtml,NYY,@,BOS,W,4,1,,82-65,2,3.0,Gil,Giolito,Bednar,2:57,N,"36,760",1.43,++,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509130.shtml,NYY,@,BOS,W,5,3,,83-65,2,3.0,Fried,Bello,Bednar,3:13,D,"36,315",1.38,+++,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509140.shtml,NYY,@,BOS,L,4,6,,83-66,2,4.0,Crochet,Warren,Chapman,2:35,N,"35,437",1.34,-,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509150.shtml,NYY,@,MIN,L,0,7,,83-67,2,5.0,Woods Richardson,Rodón,,2:43,N,"22,001",.90,--,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509160.shtml,NYY,@,MIN,W,10,9,,84-67,2,5.0,Leiter,Matthews,Bednar,2:59,N,"25,500",.78,+,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202509170.shtml,NYY,@,MIN,W,10,5,,85-67,2,4.0,Cruz,Bradley,,2:49,N,"20,206",.68,++,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509180.shtml,NYY,@,BAL,W,7,0,,86-67,2,3.0,Fried,Povich,,2:38,N,"25,253",.69,+++,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509190.shtml,NYY,@,BAL,L,2,4,,86-68,2,3.0,Rogers,Warren,Akin,2:30,N,"26,269",.86,-,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509200.shtml,NYY,@,BAL,W,6,1,,87-68,2,2.0,Rodón,Sugano,,2:35,N,"37,675",1.00,+,,2025,0
+137,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202508300.shtml,ATH,,TEX,L,3,9,,63-74,5,12.5,Kelly,Barnett,,2:42,N,"8,941",.01,--,,2025,0
+138,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202508310.shtml,ATH,,TEX,L,6,9,,63-75,5,12.5,deGrom,Ginn,,3:06,D,"8,716",.01,---,,2025,0
+139,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509010.shtml,ATH,@,STL,W,11,3,,64-75,5,12.5,Morales,Gray,,2:39,D,"22,670",.00,+,,2025,0
+140,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509020.shtml,ATH,@,STL,L,1,2,,64-76,5,12.5,Mikolas,Kelly,Romero,1:55,N,"17,002",.00,-,,2025,0
+141,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509030.shtml,ATH,@,STL,L,1,5,,64-77,5,13.5,Liberatore,Springs,Romero,2:21,N,"17,516",.00,--,,2025,0
+142,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509050.shtml,ATH,@,LAA,W,10,4,,65-77,5,12.0,Barnett,Soriano,,2:57,N,"30,779",.00,+,,2025,0
+143,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509060.shtml,ATH,@,LAA,W,17,4,,66-77,5,12.0,Ginn,Kikuchi,,2:59,N,"35,816",.00,++,,2025,0
+144,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/ANA/ANA202509070.shtml,ATH,@,LAA,L,3,4,,66-78,5,12.0,Detmers,Bido,Jansen,2:30,D,"33,053",.00,-,,2025,0
+145,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509080.shtml,ATH,,BOS,L,0,7,,66-79,5,12.5,Crochet,Morales,,2:19,N,"10,079",.00,--,,2025,0
+146,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509090.shtml,ATH,,BOS,L,0,6,,66-80,5,12.5,Early,Springs,,2:42,N,"10,066",.00,---,,2025,0
+147,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509100.shtml,ATH,,BOS,W-wo,5,4,,67-80,5,12.5,Harris,Chapman,,2:45,D,"9,634",.00,+,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509120.shtml,ATH,,CIN,W,3,0,,68-80,5,12.0,Ferguson,Singer,Newcomb,2:30,N,"8,333",.00,++,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509130.shtml,ATH,,CIN,W,11,5,,69-80,4,12.0,Basso,Martinez,,2:51,N,"8,758",.00,+++,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202509140.shtml,ATH,,CIN,W,7,4,,70-80,4,12.0,Morales,Lodolo,Kelly,2:24,D,"8,778",.00,++++,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509160.shtml,ATH,@,BOS,W,2,1,,71-80,4,12.0,Spence,Weissert,Harris,2:48,N,"35,886",.00,+++++,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509170.shtml,ATH,@,BOS,L-wo,4,5,10,71-81,4,12.5,Murphy,Kelly,,3:34,N,"36,404",.00,-,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202509180.shtml,ATH,@,BOS,W,5,3,,72-81,4,12.0,Ginn,Bello,Harris,2:28,D,"32,838",.00,+,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509190.shtml,ATH,@,PIT,W,4,3,,73-81,4,12.0,Severino,Keller,Kelly,2:31,N,"20,584",.00,++,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509200.shtml,ATH,@,PIT,L,0,2,,73-82,4,13.0,Chandler,Morales,Santana,1:52,N,"18,209",.00,-,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202508300.shtml,PHI,,ATL,W-wo,3,2,10,79-57,1,up 6.0,Strahm,Stratton,,2:44,N,"43,462",1.35,+++,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202508310.shtml,PHI,,ATL,L,1,3,,79-58,1,up 6.0,Kinley,Alvarado,Iglesias,2:46,N,"43,770",1.32,-,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509010.shtml,PHI,@,MIL,W,10,8,,80-58,1,up 6.0,Robertson,Uribe,Duran,3:25,D,"42,153",1.35,+,,2025,0
+139,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509030.shtml,PHI,@,MIL,L,3,6,,80-59,1,up 5.5,Quintana,Nola,Koenig,2:36,N,"28,528",1.31,-,,2025,0
+140,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509040.shtml,PHI,@,MIL,W,2,0,,81-59,1,up 6.0,Suárez,Myers,Duran,2:36,D,"26,583",1.34,+,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509050.shtml,PHI,@,MIA,W,9,3,,82-59,1,up 6.0,Sánchez,Bellozo,,2:42,N,"15,118",1.12,++,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509060.shtml,PHI,@,MIA,W,4,2,,83-59,1,up 7.0,Luzardo,Alcantara,Duran,2:27,D,"23,877",.96,+++,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509070.shtml,PHI,@,MIA,L,4,5,,83-60,1,up 7.0,Henriquez,Walker,Bachar,2:56,D,"30,223",.71,-,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509080.shtml,PHI,,NYM,W,1,0,,84-60,1,up 8.0,Nola,McLean,Duran,2:34,N,"40,388",1.00,+,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509090.shtml,PHI,,NYM,W,9,3,,85-60,1,up 9.0,Suárez,Manaea,,2:39,N,"41,609",.91,++,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509100.shtml,PHI,,NYM,W,11,3,,86-60,1,up10.0,Sánchez,Holmes,,2:57,N,"38,090",.77,+++,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509110.shtml,PHI,,NYM,W,6,4,,87-60,1,up11.0,Luzardo,Garrett,Duran,2:16,N,"40,098",.78,++++,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509120.shtml,PHI,,KCR,W,8,2,,88-60,1,up12.0,Buehler,Lorenzen,,2:45,N,"41,099",.62,+++++,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509130.shtml,PHI,,KCR,W,8,6,,89-60,1,up13.0,Walker,Zerpa,Duran,2:42,N,"43,326",.38,++++++,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/PHI/PHI202509140.shtml,PHI,,KCR,L,3,10,,89-61,1,up12.0,Cameron,Nola,,2:43,D,"42,513",.35,-,,2025,0
+151,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509150.shtml,PHI,@,LAD,W,6,5,10,90-61,1,up12.5,Duran,Treinen,Robertson,2:56,N,"43,602",.93,+,,2025,0
+152,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509160.shtml,PHI,@,LAD,W,9,6,,91-61,1,up12.5,Banks,Treinen,Duran,2:45,N,"44,063",.21,++,,2025,0
+153,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509170.shtml,PHI,@,LAD,L,0,5,,91-62,1,up12.5,Snell,Luzardo,,2:19,N,"50,859",.15,-,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509190.shtml,PHI,@,ARI,W,8,2,,92-62,1,up12.0,Buehler,Beeks,,2:59,N,"36,981",.10,+,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509200.shtml,PHI,@,ARI,L,3,4,,92-63,1,up12.0,Gallen,Nola,Curtiss,2:32,N,"35,498",.09,-,,2025,0
+137,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202508300.shtml,PIT,@,BOS,W,10,3,,61-76,5,24.0,Oviedo,May,,2:48,D,"36,391",.00,++,,2025,0
+138,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/BOS/BOS202508310.shtml,PIT,@,BOS,L,2,5,,61-77,5,24.0,Giolito,Keller,Chapman,2:29,D,"36,583",.00,-,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509020.shtml,PIT,,LAD,W,9,7,,62-77,5,23.0,Chandler,Henriquez,Santana,2:51,N,"14,330",.00,+,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509030.shtml,PIT,,LAD,W,3,0,,63-77,5,23.0,Burrows,Sheehan,Santana,2:28,N,"16,473",.00,++,,2025,0
+141,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509040.shtml,PIT,,LAD,W,5,3,,64-77,5,22.0,Skenes,Snell,Holderman,2:33,N,"20,563",.00,+++,,2025,0
+142,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509050.shtml,PIT,,MIL,L,2,5,,64-78,5,23.0,Priester,Mlodzinski,Uribe,2:43,N,"14,122",.00,-,,2025,0
+143,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509060.shtml,PIT,,MIL,L,1,4,,64-79,5,24.0,Woodruff,Keller,Ashby,2:30,N,"17,975",.00,--,,2025,0
+144,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509070.shtml,PIT,,MIL,L,2,10,,64-80,5,25.0,Misiorowski,Chandler,,2:49,D,"12,443",.00,---,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509090.shtml,PIT,@,BAL,L-wo,2,3,11,64-81,5,24.5,Enns,Moreta,,3:00,N,"15,488",.00,----,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509100.shtml,PIT,@,BAL,L-wo,1,2,10,64-82,5,24.5,Suárez,Nicolas,,2:58,N,"18,210",.00,-----,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/BAL/BAL202509110.shtml,PIT,@,BAL,L,2,3,,64-83,5,25.0,Wolfram,Holderman,Akin,2:36,D,"13,957",.00,------,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509120.shtml,PIT,@,WSN,L,5,6,,64-84,5,26.0,Poulin,Nicolas,Ferrer,2:14,N,"18,021",.00,-------,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509130.shtml,PIT,@,WSN,W,5,1,,65-84,5,26.0,Mlodzinski,Henry,,2:28,D,"29,887",.00,+,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509140.shtml,PIT,@,WSN,L,3,4,,65-85,5,26.0,Rutledge,Mattson,Beeter,2:26,D,"20,208",.00,-,,2025,0
+151,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509150.shtml,PIT,,CHC,L,0,4,,65-86,5,26.5,Taillon,Ashcraft,Keller,2:46,N,"15,706",.00,--,,2025,0
+152,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509160.shtml,PIT,,CHC,L,1,4,,65-87,5,27.5,Horton,Skenes,Keller,2:40,N,"14,714",.00,---,,2025,0
+153,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509170.shtml,PIT,,CHC,L,4,8,,65-88,5,28.5,Civale,Ramírez,,3:17,D,"13,488",.00,----,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509190.shtml,PIT,,ATH,L,3,4,,65-89,5,29.0,Severino,Keller,Kelly,2:31,N,"20,584",.00,-----,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/PIT/PIT202509200.shtml,PIT,,ATH,W,2,0,,66-89,5,29.0,Chandler,Morales,Santana,1:52,N,"18,209",.00,+,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202508300.shtml,SDP,@,MIN,W,12,3,,76-60,2,1.0,Morejón,Abel,,2:58,N,"23,971",1.14,+,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/MIN/MIN202508310.shtml,SDP,@,MIN,L,2,7,,76-61,2,2.0,Ryan,Hart,,2:43,D,"26,956",1.18,-,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509010.shtml,SDP,,BAL,L,3,4,,76-62,2,2.5,Enns,Adam,Akin,3:06,D,"45,586",1.12,--,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509020.shtml,SDP,,BAL,L,2,6,,76-63,2,2.5,Wells,Darvish,,3:05,N,"42,536",1.01,---,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509030.shtml,SDP,,BAL,L,5,7,,76-64,2,2.5,Povich,Cortés,Cano,2:43,D,"35,019",1.03,----,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509050.shtml,SDP,@,COL,L,0,3,,76-65,2,2.0,Freeland,Pivetta,Vodnik,2:15,N,"30,073",1.06,-----,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509060.shtml,SDP,@,COL,W,10,8,,77-65,2,1.0,Vásquez,Brown,Suarez,3:09,N,"43,461",1.07,+,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509070.shtml,SDP,@,COL,W,8,1,,78-65,2,1.0,Cease,Gordon,,3:04,D,"27,555",1.00,++,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509080.shtml,SDP,,CIN,W-wo,4,3,10,79-65,2,1.0,Peralta,Martinez,,2:47,N,"40,248",1.00,+++,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509090.shtml,SDP,,CIN,L,2,4,,79-66,2,2.0,Phillips,Suarez,Pagán,2:28,N,"41,364",.88,-,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509100.shtml,SDP,,CIN,L,1,2,,79-67,2,3.0,Abbott,Morejón,Santillan,2:31,N,"40,045",.75,--,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509110.shtml,SDP,,COL,W,2,0,,80-67,2,2.5,Vásquez,Brown,Suarez,2:16,N,"38,844",.64,+,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509120.shtml,SDP,,COL,L,2,4,,80-68,2,2.5,Gordon,Sears,Vodnik,2:27,N,"40,014",.54,-,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509130.shtml,SDP,,COL,W,11,3,,81-68,2,2.5,Cease,Blalock,,2:43,N,"41,854",.47,+,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/SDN/SDN202509140.shtml,SDP,,COL,W,9,6,,82-68,2,2.5,Darvish,Márquez,Suarez,2:45,D,"40,693",.37,++,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509160.shtml,SDP,@,NYM,L,3,8,,82-69,2,2.0,Manaea,King,,2:40,N,"41,819",.37,-,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509170.shtml,SDP,@,NYM,W,7,4,,83-69,2,2.0,Morejón,Peterson,Suarez,3:09,N,"41,783",.38,+,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509180.shtml,SDP,@,NYM,L,1,6,,83-70,2,3.0,Tong,Vásquez,,2:46,D,"38,127",.31,-,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509190.shtml,SDP,@,CHW,L,3,4,,83-71,2,4.0,Martin,Cease,Taylor,2:11,N,"30,505",.23,--,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509200.shtml,SDP,@,CHW,W,7,3,,84-71,2,4.0,Morejón,Gómez,,2:54,N,"27,345",.16,+,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202508300.shtml,SFG,,BAL,L,1,11,,67-69,4,10.0,Rogers,Seymour,,2:40,D,"37,711",.23,-,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202508310.shtml,SFG,,BAL,W,13,2,,68-69,3,10.0,Verlander,Sugano,Bivens,3:12,D,"39,220",.19,+,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509010.shtml,SFG,@,COL,W,8,2,,69-69,3,9.5,Teng,Dollander,,2:45,D,"28,805",.28,++,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509020.shtml,SFG,@,COL,W,7,4,,70-69,3,8.5,Webb,Freeland,Walker,2:51,N,"18,934",.34,+++,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/COL/COL202509030.shtml,SFG,@,COL,W,10,8,,71-69,3,7.5,Peguero,Peralta,Walker,2:50,N,"19,802",.41,++++,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509050.shtml,SFG,@,STL,W,8,2,,72-69,3,6.0,Seymour,McGreevy,Beck,2:36,N,"25,837",.66,+++++,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509060.shtml,SFG,@,STL,L-wo,2,3,,72-70,3,6.0,O'Brien,Walker,,2:35,N,"26,085",.83,-,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509070.shtml,SFG,@,STL,L,3,4,,72-71,3,7.0,Gray,Teng,O'Brien,2:44,D,"29,923",.67,--,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509080.shtml,SFG,,ARI,W,11,5,,73-71,3,7.0,Webb,Garcia,,2:20,N,"26,699",.52,+,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509090.shtml,SFG,,ARI,W,5,3,,74-71,3,7.0,Ray,Gallen,Walker,2:29,N,"30,883",.72,++,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509100.shtml,SFG,,ARI,L,3,5,,74-72,3,8.0,Rodríguez,Seymour,,2:48,D,"33,810",.91,-,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509120.shtml,SFG,,LAD,W-wo,5,1,10,75-72,3,7.0,Peguero,Treinen,,2:38,N,"40,509",.93,+,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509130.shtml,SFG,,LAD,L,7,13,,75-73,3,8.0,Henriquez,Webb,,3:15,N,"40,474",1.19,-,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/SFN/SFN202509140.shtml,SFG,,LAD,L,2,10,,75-74,3,9.0,Glasnow,Ray,,3:09,D,"40,112",1.14,--,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509150.shtml,SFG,@,ARI,L,1,8,,75-75,4,9.0,Gallen,Gage,,2:27,N,"21,521",.99,---,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509160.shtml,SFG,@,ARI,L-wo,5,6,,75-76,4,9.0,Saalfrank,Walker,,2:34,N,"26,431",.77,----,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509170.shtml,SFG,@,ARI,W,5,1,11,76-76,4,9.0,Peguero,Curtiss,,2:50,D,"19,513",.43,+,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509180.shtml,SFG,@,LAD,L,1,2,,76-77,4,10.0,Dreyer,Webb,Vesia,2:39,N,"41,225",.64,-,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509190.shtml,SFG,@,LAD,L,3,6,,76-78,4,11.0,Henriquez,Ray,Scott,2:47,N,"53,037",.28,--,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/LAN/LAN202509200.shtml,SFG,@,LAD,L,5,7,,76-79,4,12.0,Glasnow,Peguero,Dreyer,2:59,N,"53,251",.09,---,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202508300.shtml,SEA,@,CLE,L,3,4,,72-64,2,3.0,Williams,Gilbert,Smith,2:29,N,"33,203",1.64,--,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/CLE/CLE202508310.shtml,SEA,@,CLE,W,4,2,,73-64,2,2.0,Miller,Bibee,Muñoz,2:23,D,"34,136",1.66,+,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509010.shtml,SEA,@,TBR,L,2,10,,73-65,2,3.0,Baz,Castillo,,2:28,N,"10,046",1.55,-,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509020.shtml,SEA,@,TBR,L,5,6,,73-66,2,3.0,Kelly,Speier,Cleavinger,2:47,N,"7,883",1.58,--,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509030.shtml,SEA,@,TBR,L,4,9,,73-67,2,4.0,Houser,Kirby,,2:23,N,"8,589",1.67,---,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509050.shtml,SEA,@,ATL,L,1,4,,73-68,2,3.5,Kinley,Speier,Iglesias,2:23,N,"36,203",1.53,----,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509060.shtml,SEA,@,ATL,W,10,2,,74-68,2,3.5,Speier,Hernández,,3:00,N,"35,700",1.53,+,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/ATL/ATL202509070.shtml,SEA,@,ATL,W,18,2,,75-68,2,2.5,Castillo,Wentz,,2:56,D,"31,119",1.56,++,,2025,0
+144,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509080.shtml,SEA,,STL,W,4,2,,76-68,2,2.0,Woo,Graceffo,Muñoz,2:20,N,"22,899",1.69,+++,,2025,0
+145,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509090.shtml,SEA,,STL,W,5,3,,77-68,2,1.0,Ferguson,Liberatore,Muñoz,2:36,N,"23,044",1.72,++++,,2025,0
+146,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509100.shtml,SEA,,STL,W-wo,4,2,13,78-68,2,1.0,Hancock,Fernandez,,3:44,N,"25,495",1.70,+++++,,2025,0
+147,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509110.shtml,SEA,,LAA,W-wo,7,6,12,79-68,1,Tied,Castillo,Peralta,,4:00,N,"19,129",1.67,++++++,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509120.shtml,SEA,,LAA,W,2,1,,80-68,1,Tied,Vargas,Brogdon,Muñoz,2:34,N,"36,143",1.61,+++++++,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509130.shtml,SEA,,LAA,W,5,3,,81-68,1,Tied,Woo,Farris,Brash,2:27,N,"38,962",1.84,++++++++,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509140.shtml,SEA,,LAA,W,11,2,,82-68,1,up 1.0,Kirby,Hendricks,,2:36,D,"42,513",2.11,+++++++++,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509160.shtml,SEA,@,KCR,W,12,5,,83-68,1,up 0.5,Gilbert,Wacha,,2:55,N,"20,017",1.87,++++++++++,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509170.shtml,SEA,@,KCR,L,5,7,,83-69,2,0.5,Erceg,Brash,Estévez,2:46,N,"19,127",1.99,-,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509180.shtml,SEA,@,KCR,W,2,0,,84-69,1,Tied,Castillo,Kolek,Muñoz,2:17,D,"18,137",2.11,+,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509190.shtml,SEA,@,HOU,W,4,0,,85-69,1,up 1.0,Woo,Brown,,2:42,N,"41,471",3.30,++,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509200.shtml,SEA,@,HOU,W,6,4,,86-69,1,up 2.0,Kirby,Valdez,Muñoz,3:01,N,"42,065",3.64,+++,,2025,0
+137,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202508300.shtml,STL,@,CIN,W,4,2,,68-69,4,17.0,McGreevy,Abbott,Leahy,2:46,N,"32,076",.19,+++,,2025,0
+138,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202508310.shtml,STL,@,CIN,L,4,7,,68-70,4,17.0,Singer,Pallante,Pagán,2:46,D,"27,238",.27,-,,2025,0
+139,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509010.shtml,STL,,ATH,L,3,11,,68-71,4,17.0,Morales,Gray,,2:39,D,"22,670",.21,--,,2025,0
+140,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509020.shtml,STL,,ATH,W,2,1,,69-71,4,16.5,Mikolas,Kelly,Romero,1:55,N,"17,002",.12,+,,2025,0
+141,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509030.shtml,STL,,ATH,W,5,1,,70-71,4,16.5,Liberatore,Springs,Romero,2:21,N,"17,516",.14,++,,2025,0
+142,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509050.shtml,STL,,SFG,L,2,8,,70-72,4,17.0,Seymour,McGreevy,Beck,2:36,N,"25,837",.24,-,,2025,0
+143,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509060.shtml,STL,,SFG,W-wo,3,2,,71-72,4,17.0,O'Brien,Walker,,2:35,N,"26,085",.15,+,,2025,0
+144,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509070.shtml,STL,,SFG,W,4,3,,72-72,4,17.0,Gray,Teng,O'Brien,2:44,D,"29,923",.22,++,,2025,0
+145,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509080.shtml,STL,@,SEA,L,2,4,,72-73,4,17.0,Woo,Graceffo,Muñoz,2:20,N,"22,899",.30,-,,2025,0
+146,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509090.shtml,STL,@,SEA,L,3,5,,72-74,4,17.0,Ferguson,Liberatore,Muñoz,2:36,N,"23,044",.23,--,,2025,0
+147,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/SEA/SEA202509100.shtml,STL,@,SEA,L-wo,2,4,13,72-75,4,17.0,Hancock,Fernandez,,3:44,N,"25,495",.19,---,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509120.shtml,STL,@,MIL,L,2,8,,72-76,4,18.0,Priester,Pallante,,2:40,N,"40,525",.18,----,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509130.shtml,STL,@,MIL,L-wo,8,9,10,72-77,4,19.0,Uribe,Leahy,,3:37,N,"41,807",.15,-----,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/MIL/MIL202509140.shtml,STL,@,MIL,W,3,2,,73-77,4,18.0,Mikolas,Quintana,O'Brien,2:51,D,"42,269",.12,+,,2025,0
+151,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509150.shtml,STL,,CIN,L,6,11,,73-78,4,18.5,Phillips,Fernandez,,2:53,N,"18,095",.13,-,,2025,0
+152,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509160.shtml,STL,,CIN,W,3,0,,74-78,4,18.5,McGreevy,Abbott,O'Brien,2:15,N,"21,848",.06,+,,2025,0
+153,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509170.shtml,STL,,CIN,L,2,6,,74-79,4,19.5,Singer,Pallante,,2:48,D,"23,462",.05,-,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509190.shtml,STL,,MIL,W,7,1,,75-79,4,19.0,Gray,Misiorowski,,2:47,N,"29,752",.02,+,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/SLN/SLN202509200.shtml,STL,,MIL,L,2,3,10,75-80,4,20.0,Koenig,Romero,,2:44,N,"36,212",.01,-,,2025,0
+135,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202508300.shtml,TBR,@,WSN,W,4,1,,66-69,4,11.5,Pepiot,Irvin,Baker,2:18,D,"26,148",.11,++,,2025,0
+136,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202508310.shtml,TBR,@,WSN,W,7,4,,67-69,4,11.5,Seymour,Lord,Fairbanks,2:22,D,"19,436",.18,+++,,2025,0
+137,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509010.shtml,TBR,,SEA,W,10,2,,68-69,4,10.5,Baz,Castillo,,2:28,N,"10,046",.26,++++,,2025,0
+138,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509020.shtml,TBR,,SEA,W,6,5,,69-69,4,10.5,Kelly,Speier,Cleavinger,2:47,N,"7,883",.33,+++++,,2025,0
+139,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509030.shtml,TBR,,SEA,W,9,4,,70-69,4,10.5,Houser,Kirby,,2:23,N,"8,589",.51,++++++,,2025,0
+140,"Thursday, Sep 4",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509040.shtml,TBR,,CLE,W,4,2,,71-69,4,10.0,Pepiot,Allen,,2:31,N,"8,306",.60,+++++++,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509050.shtml,TBR,,CLE,L,1,7,,71-70,4,11.0,Williams,Seymour,,2:35,N,"8,836",.72,-,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509060.shtml,TBR,,CLE,L,2,3,,71-71,4,11.0,Gaddis,Fairbanks,Smith,2:47,N,"10,046",.56,--,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509070.shtml,TBR,,CLE,L,1,2,,71-72,4,11.0,Messick,Cleavinger,Smith,2:38,D,"8,155",.35,---,,2025,0
+144,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509090.shtml,TBR,@,CHW,W,5,4,,72-72,4,11.0,Kelly,Alexander,Fairbanks,2:34,N,"12,487",.14,+,,2025,0
+145,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509100.shtml,TBR,@,CHW,L,5,6,,72-73,4,11.0,Leasure,Montgomery,Gilbert,2:47,N,"12,099",.19,-,,2025,0
+146,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/CHA/CHA202509110.shtml,TBR,@,CHW,L,1,5,,72-74,4,12.0,Smith,Seymour,,2:51,D,"11,850",.09,--,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509120.shtml,TBR,@,CHC,L,4,6,,72-75,4,13.0,Boyd,Baz,Kittredge,2:47,D,"38,794",.05,---,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509130.shtml,TBR,@,CHC,W,5,4,,73-75,4,13.0,Baker,Keller,Fairbanks,2:37,D,"39,712",.01,+,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509140.shtml,TBR,@,CHC,L,3,4,,73-76,4,14.0,Assad,Uceta,Kittredge,2:38,D,"37,186",.01,-,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509150.shtml,TBR,,TOR,L,1,2,11,73-77,4,15.0,Fisher,Kelly,,2:49,N,"8,972",.00,--,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509160.shtml,TBR,,TOR,L,5,6,,73-78,4,16.0,Lauer,Pepiot,Hoffman,2:58,N,"8,908",.00,---,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509170.shtml,TBR,,TOR,W,2,1,,74-78,4,15.0,Seymour,Rodríguez,Fairbanks,2:34,N,"8,959",.00,+,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509180.shtml,TBR,,TOR,W,4,0,,75-78,4,14.0,Baz,Bassitt,,2:42,D,"8,042",.00,++,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509190.shtml,TBR,,BOS,L,7,11,,75-79,4,14.0,Crochet,Cleavinger,,3:01,N,"10,046",.00,-,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509200.shtml,TBR,,BOS,L,3,6,,75-80,4,14.0,Whitlock,Scholtens,Chapman,2:54,N,"10,046",.00,--,,2025,0
+137,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202508300.shtml,TEX,@,ATH,W,9,3,,70-67,3,5.5,Kelly,Barnett,,2:42,N,"8,941",.69,++++,,2025,0
+138,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/ATH/ATH202508310.shtml,TEX,@,ATH,W,9,6,,71-67,3,4.5,deGrom,Ginn,,3:06,D,"8,716",.90,+++++,,2025,0
+139,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509010.shtml,TEX,@,ARI,W,7,5,10,72-67,3,4.5,Martin,Burgos,Armstrong,3:17,N,"26,489",1.06,++++++,,2025,0
+140,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509020.shtml,TEX,@,ARI,L,3,5,,72-68,3,4.5,Beeks,Milner,Rashi,2:27,N,"22,046",1.24,-,,2025,0
+141,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/ARI/ARI202509030.shtml,TEX,@,ARI,L,0,2,,72-69,3,5.5,Gallen,Leiter,Woodford,2:30,D,"14,921",1.18,--,,2025,0
+142,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509050.shtml,TEX,,HOU,W-wo,4,3,12,73-69,3,4.0,Garcia,McCullers,,3:37,N,"31,662",1.31,+,,2025,0
+143,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509060.shtml,TEX,,HOU,L,0,11,,73-70,3,5.0,Brown,deGrom,,3:17,N,"38,332",1.65,-,,2025,0
+144,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509070.shtml,TEX,,HOU,W,4,2,,74-70,3,4.0,Maton,Valdez,Armstrong,2:23,D,"35,449",1.23,+,,2025,0
+145,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509080.shtml,TEX,,MIL,W,5,0,,75-70,3,3.5,Latz,Quintana,,2:20,N,"20,791",1.19,++,,2025,0
+146,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509090.shtml,TEX,,MIL,W,5,4,,76-70,3,2.5,Milner,Ashby,Armstrong,2:43,N,"24,581",1.28,+++,,2025,0
+147,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509100.shtml,TEX,,MIL,W,6,3,,77-70,3,2.5,Kelly,Peralta,Maton,2:46,D,"24,682",1.43,++++,,2025,0
+148,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509120.shtml,TEX,@,NYM,W,8,3,,78-70,3,2.0,deGrom,Tong,,2:36,N,"41,040",1.50,+++++,,2025,0
+149,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509130.shtml,TEX,@,NYM,W,3,2,,79-70,3,2.0,Maton,Díaz,Armstrong,2:55,D,"41,752",1.65,++++++,,2025,0
+150,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509140.shtml,TEX,@,NYM,L-wo,2,5,10,79-71,3,3.0,Stanek,Curvelo,,3:01,D,"40,024",1.82,-,,2025,0
+151,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509150.shtml,TEX,@,HOU,L,3,6,,79-72,3,3.5,Okert,Leiter,Abreu,2:25,N,"30,484",2.15,--,,2025,0
+152,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509160.shtml,TEX,@,HOU,L,5,6,,79-73,3,4.5,Gordon,Kelly,Abreu,3:03,N,"35,026",1.69,---,,2025,0
+153,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/HOU/HOU202509170.shtml,TEX,@,HOU,L,2,5,,79-74,3,5.0,Javier,deGrom,King,2:32,N,"33,084",.91,----,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509190.shtml,TEX,,MIA,L,4,6,12,79-75,3,6.0,Soriano,Corbin,,3:41,N,"26,374",.39,-----,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/TEX/TEX202509200.shtml,TEX,,MIA,L,3,4,,79-76,3,7.0,Gibson,Leiter,Faucher,2:52,N,"36,054",.13,------,,2025,0
+136,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202508300.shtml,TOR,,MIL,L,1,4,,78-58,1,up 2.0,Ashby,Hoffman,Uribe,2:29,D,"41,424",1.42,--,,2025,0
+137,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202508310.shtml,TOR,,MIL,W,8,4,,79-58,1,up 3.0,Nance,Woodruff,,2:45,D,"41,488",1.47,+,,2025,0
+138,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509010.shtml,TOR,@,CIN,L-wo,4,5,,79-59,1,up 2.5,Zulueta,Little,,2:54,D,"21,773",1.33,-,,2025,0
+139,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509020.shtml,TOR,@,CIN,W,12,9,,80-59,1,up 2.5,Varland,Barlow,Hoffman,3:06,N,"20,769",1.54,+,,2025,0
+140,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/CIN/CIN202509030.shtml,TOR,@,CIN,W,13,9,,81-59,1,up 3.5,Bieber,Martinez,,3:10,N,"17,134",1.42,++,,2025,0
+141,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509050.shtml,TOR,@,NYY,W,7,1,,82-59,1,up 4.0,Gausman,Schlittler,,2:51,N,"46,055",1.83,+++,,2025,0
+142,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509060.shtml,TOR,@,NYY,L,1,3,,82-60,1,up 3.0,Gil,Bassitt,Bednar,2:49,D,"45,123",1.31,-,,2025,0
+143,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/NYA/NYA202509070.shtml,TOR,@,NYY,L,3,4,,82-61,1,up 2.0,Fried,Scherzer,Bednar,2:35,D,"43,266",1.69,--,,2025,0
+144,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509090.shtml,TOR,,HOU,W-wo,4,3,10,83-61,1,up 3.0,Hoffman,Kimbrel,,3:14,N,"40,252",1.55,+,,2025,0
+145,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509100.shtml,TOR,,HOU,L,2,3,,83-62,1,up 3.0,De Los Santos,Hoffman,Abreu,2:41,N,"36,760",1.34,-,,2025,0
+146,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509110.shtml,TOR,,HOU,W,6,0,,84-62,1,up 3.0,Gausman,Javier,,2:07,D,"41,224",1.61,+,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509120.shtml,TOR,,BAL,W,6,1,,85-62,1,up 3.0,Fisher,Enns,,2:42,N,"34,376",1.20,++,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509130.shtml,TOR,,BAL,W-wo,5,4,,86-62,1,up 3.0,Fisher,Cano,,2:42,D,"42,461",1.00,+++,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/TOR/TOR202509140.shtml,TOR,,BAL,W,11,2,,87-62,1,up 4.0,Bieber,Wolfram,,2:28,D,"42,032",.89,++++,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509150.shtml,TOR,@,TBR,W,2,1,11,88-62,1,up 5.0,Fisher,Kelly,,2:49,N,"8,972",.60,+++++,,2025,0
+151,"Tuesday, Sep 16",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509160.shtml,TOR,@,TBR,W,6,5,,89-62,1,up 5.0,Lauer,Pepiot,Hoffman,2:58,N,"8,908",.32,++++++,,2025,0
+152,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509170.shtml,TOR,@,TBR,L,1,2,,89-63,1,up 4.0,Seymour,Rodríguez,Fairbanks,2:34,N,"8,959",.21,-,,2025,0
+153,"Thursday, Sep 18",boxscore,https://www.baseball-reference.com/boxes/TBA/TBA202509180.shtml,TOR,@,TBR,L,0,4,,89-64,1,up 3.0,Baz,Bassitt,,2:42,D,"8,042",.37,--,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509190.shtml,TOR,@,KCR,L,1,20,,89-65,1,up 3.0,Lorenzen,Scherzer,,2:50,N,"26,459",.62,---,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/KCA/KCA202509200.shtml,TOR,@,KCR,L,1,2,,89-66,1,up 2.0,Cameron,Bieber,Estévez,2:21,N,"25,774",.58,----,,2025,0
+135,"Saturday, Aug 30",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202508300.shtml,WSN,,TBR,L,1,4,,53-82,5,25.5,Pepiot,Irvin,Baker,2:18,D,"26,148",.00,-------,,2025,0
+136,"Sunday, Aug 31",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202508310.shtml,WSN,,TBR,L,4,7,,53-83,5,25.5,Seymour,Lord,Fairbanks,2:22,D,"19,436",.00,--------,,2025,0
+137,"Monday, Sep 1",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509010.shtml,WSN,,MIA,W,2,0,,54-83,5,25.5,Alvarez,Bachar,Ferrer,2:15,D,"13,835",.00,+,,2025,0
+138,"Tuesday, Sep 2",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509020.shtml,WSN,,MIA,W,5,2,,55-83,5,25.0,Cavalli,Mazur,Ferrer,2:27,N,"12,372",.00,++,,2025,0
+139,"Wednesday, Sep 3",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509030.shtml,WSN,,MIA,W,10,5,,56-83,5,24.0,Rutledge,Pérez,,2:53,D,"11,190",.00,+++,,2025,0
+140,"Friday, Sep 5",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509050.shtml,WSN,@,CHC,L,5,11,,56-84,5,25.5,Assad,Irvin,,2:40,D,"32,320",.00,-,,2025,0
+141,"Saturday, Sep 6",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509060.shtml,WSN,@,CHC,W,2,1,,57-84,5,25.5,Lord,Boyd,Henry,2:23,D,"38,011",.00,+,,2025,0
+142,"Sunday, Sep 7",boxscore,https://www.baseball-reference.com/boxes/CHN/CHN202509070.shtml,WSN,@,CHC,W,6,3,,58-84,5,24.5,Thompson,Palencia,Ferrer,2:30,D,"33,343",.00,++,,2025,0
+143,"Monday, Sep 8",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509080.shtml,WSN,@,MIA,W,15,7,,59-84,5,24.5,Cavalli,Junk,,3:02,N,"7,992",.00,+++,,2025,0
+144,"Tuesday, Sep 9",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509090.shtml,WSN,@,MIA,W,7,5,,60-84,5,24.5,Parker,Mazur,Ferrer,3:08,N,"8,634",.00,++++,,2025,0
+145,"Wednesday, Sep 10",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509100.shtml,WSN,@,MIA,L,3,8,,60-85,5,25.5,Bachar,Irvin,,2:57,N,"9,038",.00,-,,2025,0
+146,"Thursday, Sep 11",boxscore,https://www.baseball-reference.com/boxes/MIA/MIA202509110.shtml,WSN,@,MIA,L,0,5,,60-86,5,26.5,Weathers,Gore,,2:29,N,"10,110",.00,--,,2025,0
+147,"Friday, Sep 12",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509120.shtml,WSN,,PIT,W,6,5,,61-86,5,26.5,Poulin,Nicolas,Ferrer,2:14,N,"18,021",.00,+,,2025,0
+148,"Saturday, Sep 13",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509130.shtml,WSN,,PIT,L,1,5,,61-87,5,27.5,Mlodzinski,Henry,,2:28,D,"29,887",.00,-,,2025,0
+149,"Sunday, Sep 14",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509140.shtml,WSN,,PIT,W,4,3,,62-87,5,26.5,Rutledge,Mattson,Beeter,2:26,D,"20,208",.00,+,,2025,0
+150,"Monday, Sep 15",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509150.shtml,WSN,,ATL,L,3,11,,62-88,5,27.5,Strider,Parker,,2:51,N,"13,979",.00,-,,2025,0
+151,"Tuesday, Sep 16 (1)",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509161.shtml,WSN,,ATL,L,3,6,,62-89,5,29.0,Suarez,Irvin,Iglesias,2:25,D,"15,584",.00,--,,2025,0
+152,"Tuesday, Sep 16 (2)",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509162.shtml,WSN,,ATL,L,0,5,10,62-90,5,29.0,Kinley,Thompson,,2:49,N,"19,216",.00,---,,2025,0
+153,"Wednesday, Sep 17",boxscore,https://www.baseball-reference.com/boxes/WAS/WAS202509170.shtml,WSN,,ATL,L,4,9,,62-91,5,29.0,Waldrep,Beeter,,2:55,D,"14,420",.00,----,,2025,0
+154,"Friday, Sep 19",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509190.shtml,WSN,@,NYM,L,6,12,,62-92,5,30.0,Raley,Alvarez,,2:51,N,"39,484",.00,-----,,2025,0
+155,"Saturday, Sep 20",boxscore,https://www.baseball-reference.com/boxes/NYN/NYN202509200.shtml,WSN,@,NYM,W,5,3,11,63-92,5,29.0,Lao,Rogers,Poulin,3:18,D,"43,412",.00,+,,2025,0
